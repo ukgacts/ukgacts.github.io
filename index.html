@@ -374,7 +374,7 @@ display: flex;
         <amp-story-grid-layer template="fill" class="gradient">
         
                
-            <amp-img src="assets/ukg-cover.jpg"
+            <amp-img src="assets/images/cover.jpg"
           width="720" height="1280"
           layout="responsive">
       </amp-img>
@@ -390,13 +390,24 @@ display: flex;
          
 
 
-          <div class="bolder" animate-in="fly-in-bottom" animate-in-duration="1s">
-            <h4>UK Garage Music Style </h4>
+          <div class="cover-title" 
+          style="text-align: right;
+                  
+          width: 100%;
+          padding: 18% 4%;
+  
+    position: absolute;
+"
+          
+          animate-in="fly-in-bottom" animate-in-duration="1s">
            
-            <h1 style="  "> UKG Acts </h1>
+                       <h1 style="text-align: right; line-height: 0.75; margin:0;  color: white; font-size: 6.5rem;  "> UKG  </h1>
+               <h3
+               style="line-height: 1; margin-top: 0.75rem;    font-size: 3rem;"
+               
+               >Scene </h3>
               
-              
-              <div class="img-credits" style="line-height: 15px; display: inline-block;">Image: Instagram/@danielholmes</div></h1>
+              <div class="img-credits" style="line-height: 15px; display: inline-block;"></div></h1>
             
           
           </div>
@@ -416,108 +427,7 @@ display: flex;
 
 
 
-
-
-
-
-
-<!---- Second Page-->
-
-<amp-story-page id="my-second-page">
-
-
-  <amp-story-grid-layer template="fill" class="gradient">
-        
-               
-    <amp-video autoplay loop
-    width="720" height="1280"
-    poster="assets/once.jpg"
-    layout="fill"
-    cache="google" >
-  <source src="assets/video/1.mp4" 
-  type="video/mp4">
-
-</amp-story-grid-layer>
-
-
-
-
-<amp-story-grid-layer template="vertical">
-
- 
-
-
-  <div class="bolder" animate-in="fly-in-bottom" animate-in-duration="1s">
-  <h1>UKG</h1>
-      <h3>HOT STEPPIN</h3>
-      
-     
-  
-  </div>
-
-
-  <div class="link-field" style="place-self: self-end right;  top: 30%; position: absolute; width:35%;   margin-left: 1.5rem;">
-    <p style="    font-size: 1rem;
-       line-height: 1.3;     margin-bottom: 0.8rem;">Follow me </p>
-    <div class="button-wrapper" style="width: auto;
-         background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-
-     opacity: 0.7; 
-       position: absolute;
-       border-radius: 3px;
-       padding: 0.5rem;
-       
-       "
-       animate-in="drop" >
-       <a
-          href="https://www.google.com"
-          role="link"
-          data-tooltip-icon="./assets/images/icons/insta2.svg"
-          data-tooltip-text="Instagram"
-          style="  color: #fff;   text-decoration: none; display: flex;
-          flex-direction: row;
-          "
-          >
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          <span style="margin-left: 0.5rem; font-family: Roboto,sans-serif;
-             font-size: 14px;
-             letter-spacing: 0;
-             line-height: 20px;     font-weight: 600;
-             "> @djdance </span>
-       </a>
-    </div>
- </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-</amp-story-grid-layer>
-
-
-
-<amp-story-grid-layer template="vertical" class="gradient;" style=" padding: 16px;" >
-  <div class="pagination"><p>2</p></div>
- </amp-story-grid-layer>
-
-
-
-
-
-
-
-</amp-story-page>
-
-
-<!---- Third Page-->
+<!---- First Page-->
 
 <amp-story-page id="my-third-page">
 
@@ -573,7 +483,12 @@ display: flex;
 
 </amp-story-page>
 
-<!---- Forth Page-->
+
+
+
+
+<!---- Second Page-->
+
 
 <amp-story-page id="my-forth-page">
 
@@ -637,373 +552,32 @@ display: flex;
 </amp-story-page>
 
 
-
-<!---- Fith Page-->
-
-
-<amp-story-page id="page-6">
-    
-  <amp-story-grid-layer class="container" template="fill">
-
-   
-  </amp-story-grid-layer>
-
-    <amp-story-grid-layer class="container" template="fill">
-
-      <amp-video autoplay loop
-      width="720" height="1280"
-      poster="assets/once.jpg"
-      layout="fill"
-      cache="google" >
-    <source src="assets/Sammy.mp4" 
-    type="video/mp4">
-   
-  </amp-story-grid-layer>
- 
-  <amp-story-grid-layer template="vertical" style="align-content:end;">
-
- <div class="link-field" style="place-self: self-end left;  top: 30%; position: absolute; width:40%;   margin-left: 1.5rem;"> 
-  <p style="    font-size: 1rem;
-  line-height: 1.3;     margin-bottom: 0.8rem;">We are here: </p>
-
-  <div class="button-wrapper" style="width: auto; 
-      background: linear-gradient(-120deg, #4285f4, #34a853, #fbbc05, #ea4335);
-  opacity: 0.7; 
-  position: absolute;
-  box-shadow: 0px 6px 16px rgba(0,0,0,0.16);
-    display: flex;
-    align-items: center;
-    border-radius: 6px;
-    padding: 8px;
-    height: 40px;
-  
- 
-   "
-    animate-in="drop" >     
-
-    <a
-  href="https://www.google.com"
-  role="link"
-  data-tooltip-icon="./assets/images/icons/gmap2.png"
-  data-tooltip-text="See Google Map"
-  style="  color: #fff;   text-decoration: none; display: flex;
-  flex-direction: row;
-
-  "
- >
-
-<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" style="margin: 0px 5px; padding-bottom: 2px;" viewBox="0 0 24 24" fill="none">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3856 23.789L11.3831 23.7871L11.3769 23.7822L11.355 23.765C11.3362 23.7501 11.3091 23.7287 11.2742 23.7008C11.2046 23.6451 11.1039 23.5637 10.9767 23.4587C10.7224 23.2488 10.3615 22.944 9.92939 22.5599C9.06662 21.793 7.91329 20.7041 6.75671 19.419C5.60303 18.1371 4.42693 16.639 3.53467 15.0528C2.64762 13.4758 2 11.7393 2 10C2 7.34784 3.05357 4.8043 4.92893 2.92893C6.8043 1.05357 9.34784 0 12 0C14.6522 0 17.1957 1.05357 19.0711 2.92893C20.9464 4.8043 22 7.34784 22 10C22 11.7393 21.3524 13.4758 20.4653 15.0528C19.5731 16.639 18.397 18.1371 17.2433 19.419C16.0867 20.7041 14.9334 21.793 14.0706 22.5599C13.6385 22.944 13.2776 23.2488 13.0233 23.4587C12.8961 23.5637 12.7954 23.6451 12.7258 23.7008C12.6909 23.7287 12.6638 23.7501 12.645 23.765L12.6231 23.7822L12.6169 23.7871L12.615 23.7885C12.615 23.7885 12.6139 23.7894 12 23L12.6139 23.7894C12.2528 24.0702 11.7467 24.0699 11.3856 23.789ZM12 23L11.3856 23.789C11.3856 23.789 11.3861 23.7894 12 23ZM15 10C15 11.6569 13.6569 13 12 13C10.3431 13 9 11.6569 9 10C9 8.34315 10.3431 7 12 7C13.6569 7 15 8.34315 15 10Z" fill="white"/>
-  </svg>
- <span style="margin-left: 0.5rem; font-family: Roboto,sans-serif;
- font-size: 14px;
- 
- letter-spacing: 0;
- line-height: 20px;   
-   font-weight: 500;
-   overflow: hidden;
-   text-overflow: ellipsis;
-   white-space: nowrap;
-    margin: 0px 5px;
-"> Club  NW4 </span>
-
- 
-</a>
-
-</div>
-</div>
-
-    <div class="caption-bottom-right" 
-   animate-in="fade-in" animate-in-duration="1s"
-   style="
-   position: absolute;
-   bottom: 0;
-   width: 60%;
-   padding: 0% 3% 30% 3%;
-
-   font-family: 'Anton', sans-serif;
-   place-self: self-end right;" >
-      <small>23.10.2021 </small>
-      <br>
-      <br>
-        <h3 style="font-weight: normal;">GARAGE! GHGJGJH GHG G GHG HJG JHG GHJ GHG GHG JGHJ</h3>  
-       
-    
-    </div>
-  
-    <div class="caption-top"  style="text-align: center;" animate-in="fly-in-right" animate-in-duration="1s">
-  
-      <h5>UKG</h5>
-      
-     
-  </div>
-  
-  </amp-story-grid-layer>
-  
-  
-  <amp-story-grid-layer template="vertical" class="gradient;" style=" padding: 16px;" >
-    <div class="pagination"><p>5 button</p></div>
-   </amp-story-grid-layer>
-
-  <amp-story-page-attachment layout="nodisplay" class="attachment;" style=" color: black;" >
-
-   
-
-      <amp-instagram
-      data-shortcode="Cxn_ndcIRSu"
-      data-captioned
-      width="400"
-      height="400"
-      layout="responsive"
-    >
-    </amp-instagram>
-    
-    
-
-
-   
-  </amp-story-page-attachment>
-
-</amp-story-page>
-
-
-
-
-
-
-
-
-
-
-
-      <amp-story-page id="my-second-page">
-
-
-        <amp-story-grid-layer template="vertical" class="gradient;" style=" padding: 16px;" >
-          <div class="icon"></div>
-         </amp-story-grid-layer>
-         
-
-
-
-         <amp-story-grid-layer class="container" template="fill">
-      
-          <amp-video autoplay loop
-          width="720" height="1280"
-          poster="assets/once.jpg"
-          layout="fill"
-          cache="google" >
-        <source src="assets/Sammy.mp4" 
-        type="video/mp4">
-       
-      </amp-story-grid-layer>
-
-      <amp-story-grid-layer template="vertical" class="gradient;" style=" padding: 16px;" >
-        <div class="pagination"><p>4</p></div>
-       </amp-story-grid-layer>
-        <amp-story-page-attachment layout="nodisplay" class="attachment;" style=" color: black;" >
-
-<div class="infobox"> 
-          <h3 class="infobox-title">Sammy Virji</h3>
-        
-        
-        <div class="infobox-data">  
-    
-
-      <svg  viewBox="0 0 12 16" version="1.1" width="12" height="16" fill="#70757a" aria-hidden="true"><path fill-rule="evenodd" d="M6 0C2.69 0 0 2.5 0 5.5 0 10.02 6 16 6 16s6-5.98 6-10.5C12 2.5 9.31 0 6 0zm0 14.55C4.14 12.52 1 8.44 1 5.5 1 3.02 3.25 1 6 1c1.34 0 2.61.48 3.56 1.36.92.86 1.44 1.97 1.44 3.14 0 2.94-3.14 7.02-5 9.05zM8 5.5c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
-      
-      <small       > London</small>
-    </div>
-
-  </div>
-        <div class="social-menu">
-          <ul>
-
-           
-
-
-            
-              <li><a href="https://www.instagram.com/imsanketbodke/" >
-
-
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
-
-
-
-              </a></li>
-              <li><a href="https://www.linkedin.com/in/sanket-bodake-995b5b205/" target="blank"><i>
-
-          
-                
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-
-
-
-              </i></a></li>
-
-
-              <li><a href="https://www.linkedin.com/in/sanket-bodake-995b5b205/" target="blank"><i>
-
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-               
-
-              </i></a></li>
-            
-          </ul>
-
-      </div>
-
-
-
-
-
-      
-
-
-
-
-
-
-
-
-
-          <iframe src="https://embed.beatport.com/?id=17470445&type=track" width="100%" height="162" frameborder="0" scrolling="no" style="max-width:600px;"></iframe>
-     
-      
-        </amp-story-page-attachment>
-      
-
-
-
-
-
-      </amp-story-page>
-
-
 <!----3 slide Image + Attachment-->
 
-      <amp-story-page id="page-3">
-
-        <amp-story-grid-layer template="vertical" class="gradient;" style=" padding: 16px;" >
-          <div class="icon"></div>
-         </amp-story-grid-layer>
-
-
-         <amp-story-grid-layer class="container" template="fill">
-      
-          <amp-video autoplay loop
-          width="720" height="1280"
-          poster="assets/once.jpg"
-          layout="fill"
-          cache="google" >
-        <source src="assets/Slater.mp4" 
-        type="video/mp4">
-       
-      </amp-story-grid-layer>
-     
-
-      <amp-story-grid-layer template="vertical" class="gradient;" style=" padding: 16px;" >
-
-   
-
- 
-
-
-          <div class="caption-bottom" animate-in="fly-in-bottom" animate-in-duration="1s">
-        
-              <h3>LEFT TO RIGHT</h3>  
-              <p>fgdhkghdkfghdfkghkdfg dhfg kdhgd hgdfj ghfdkjg dfhg kdhgdkfj gdfkjgh kdfjhg kdfhgkdfjgh kdfjhg kdfjhg kdfhgk jdfhgkjdfhgk dfghdfkg dfjkgh dkh jkhkdf</p>
-             
-          
-          </div>
 
 
 
-        <div class="pagination"><p>5</p></div>
-       </amp-story-grid-layer>
-      
-        <amp-story-page-attachment layout="nodisplay" class="attachment;" style=" color: black;" >
+<!---- Page-->
+
+
+
+<!----  Page-->
 
 
 
 
-          <div class="infobox"> 
 
 
 
-            <div class="icon-wrapper" style=" display: flex;
-            flex-direction: row; align-items: center;">
-           
-            
-            <amp-img src="assets/slater.png" width="80" height="80" layout="fixed" style="place-self: center; border-radius:50%;">
-            </amp-img>
-            
-            <h3 class="infobox-title" style="margin-left: 0.5rem;">   AC Slater </h3>
-          </div>
-
-
-            
-                  
-                  
-                  <div class="infobox-data">  
-              
-          
-                <small> DJ, Musician, Producer</small>
-              </div>
-            </div>
-
-   
-                  <div class="social-menu">
-                    <ul>
-          
-                     
-          
-          
-                      
-                        <li>
-                          <a href="https://www.youtube.com/channel/UCL9hNs37uncHth3eCIIDHiQ"   target="_blank" rel="noopener noreferrer"
-                          
-                          >
-                                 
-          
-                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
-          
-          
-          
-                        </a></li>
-                        <li>
-                     
-                          <a href="https://www.instagram.com/nightbass" target="blank">
-                    
-                          
-                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-          
-          
-          
-                        </i></a></li>
-          
-          
-                        <li><a href="https://twitter.com/nightbass" target="blank">
-          
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
-                        </a></li>
-                      
-                    </ul>
-          
-                </div>
-          
-          
-                <iframe src="https://embed.beatport.com/?id=3424036&type=release" width="100%" height="162" frameborder="0" scrolling="no" style="max-width:600px;"></iframe>
-          
-                    
-          
-                
-                  </amp-story-page-attachment>
-                
 
 
 
-      </amp-story-page>
+
+
+
+
+
+
 
 
 
@@ -1016,277 +590,15 @@ display: flex;
 
 
 
-      <amp-story-page id="page-4">
 
-        <amp-story-grid-layer class="container" template="fill">
-      
-         
-        </amp-story-grid-layer>
-
-          <amp-story-grid-layer class="container" template="fill">
-      
-            <amp-video autoplay loop
-            width="720" height="1280"
-            poster="assets/once.jpg"
-            layout="fill"
-            cache="google" >
-          <source src="assets/DJ3.mp4" 
-          type="video/mp4">
-         
-        </amp-story-grid-layer>
-       
-        <amp-story-grid-layer template="vertical" class="gradient;" style=" padding: 16px;" >
-          <div class="pagination"><p>6</p></div>
-         </amp-story-grid-layer>
-
-        <amp-story-page-attachment layout="nodisplay" class="attachment;" style=" color: black;" >
-     
-       
-          <div class="infobox"> 
-
-
-
-            <div class="icon-wrapper" style=" display: flex;
-            flex-direction: row; align-items: center;">
-           
-            
-            <amp-img src="assets/slater.png" width="80" height="80" layout="fixed" style="place-self: center; border-radius:50%;">
-            </amp-img>
-            
-            <h3 class="infobox-title" style="margin-left: 0.5rem;">   DJ3 </h3>
-          </div>
-
-
-            
-                  
-                  
-                  <div class="infobox-data">  
-              
-          
-                <small> DJ, Insta</small>
-              </div>
-            </div>
-
-   
-                  <div class="social-menu">
-                    <ul>
-          
-                     
-          
-          
-                      
-                        <li>
-                          <a href="https://www.youtube.com/channel/UCL9hNs37uncHth3eCIIDHiQ"   target="_blank" rel="noopener noreferrer"
-                          
-                          >
-                                 
-          
-                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
-          
-          
-          
-                        </a></li>
-                        <li>
-                     
-                          <a href="https://www.instagram.com/nightbass" target="blank">
-                    
-                          
-                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-          
-          
-          
-                        </i></a></li>
-          
-          
-                        <li><a href="https://twitter.com/nightbass" target="blank">
-          
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
-                        </a></li>
-                      
-                    </ul>
-          
-                </div>
-          
-          
-                <iframe src="https://embed.beatport.com/?id=3424036&type=release" width="100%" height="162" frameborder="0" scrolling="no" style="max-width:600px;"></iframe>
-          
-                    
-          
-    
-    
-         
-        </amp-story-page-attachment>
-      
-
-
-      </amp-story-page>
 
 
 
       <!----5-Insta + Attachment-->
 
-      <amp-story-page id="page-5">
+  
 
-
-
-
-        <amp-story-grid-layer template="responsive">
-				
-				</amp-story-grid-layer>
-
-       
-          
-        <amp-story-grid-layer class="container" template="vertical">
-        
-   
-
-
-
-
-
-        </amp-story-grid-layer>
-
-
-      <amp-story-grid-layer template="vertical" class="gradient;" style=" padding: 16px;" >
-        <div class="pagination"><p>7</p></div>
-       </amp-story-grid-layer>
-
-
-        <amp-story-page-attachment layout="nodisplay" class="attachment;" style=" color: black;" >
-
-
-
-
-          <div class="infobox"> 
-
-
-
-            <div class="icon-wrapper" style=" display: flex;
-            flex-direction: row; align-items: center;">
-           
-            
-            <amp-img src="assets/slater.png" width="80" height="80" layout="fixed" style="place-self: center; border-radius:50%;">
-            </amp-img>
-            
-            <h3 class="infobox-title" style="margin-left: 0.5rem;">   AC Slater </h3>
-          </div>
-
-
-            
-                  
-                  
-                  <div class="infobox-data">  
-              
-          
-                <small> DJ, Musician, Producer</small>
-              </div>
-            </div>
-
-   
-
-           
-
-
-
-                  <div class="social-menu">
-                    <ul>
-          
-                     
-          
-          
-                      
-                        <li>
-                          <a href="https://www.youtube.com/channel/UCL9hNs37uncHth3eCIIDHiQ"   target="_blank" rel="noopener noreferrer"
-                          
-                          >
-                                 
-          
-                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
-          
-          
-          
-                        </a></li>
-                        <li>
-                     
-                          <a href="https://www.instagram.com/nightbass" target="blank">
-                    
-                          
-                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-          
-          
-          
-                        </i></a></li>
-          
-          
-                        <li><a href="https://twitter.com/nightbass" target="blank">
-          
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
-                        </a></li>
-                      
-                    </ul>
-          
-                </div>
-          
-          
-                <amp-instagram
-                data-shortcode="CoIVuswLpMe"
-                data-captioned
-                width="400"
-                height="400"
-                layout="responsive"
-              >
-              </amp-instagram>
-          
-                
-                  </amp-story-page-attachment>
-
-
-
-      </amp-story-page>
-
-
-      <amp-story-page id="page-6">
-    
-        <amp-story-grid-layer class="container" template="fill">
-      
-         
-        </amp-story-grid-layer>
-
-          <amp-story-grid-layer class="container" template="fill">
-      
-            <amp-video autoplay loop
-            width="720" height="1280"
-            poster="assets/once.jpg"
-            layout="fill"
-            cache="google" >
-          <source src="assets/8.mp4" 
-          type="video/mp4">
-         
-        </amp-story-grid-layer>
-       
-
-      
-        <amp-story-page-attachment layout="nodisplay" class="attachment;" style=" color: black;" >
-     
-         
-   
-            <amp-instagram
-            data-shortcode="Cxn_ndcIRSu"
-            data-captioned
-            width="400"
-            height="400"
-            layout="responsive"
-          >
-          </amp-instagram>
-          
-          
-    
-    
-         
-        </amp-story-page-attachment>
-      
-      </amp-story-page>
-
+ 
 
 
 
