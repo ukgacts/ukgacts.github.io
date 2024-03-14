@@ -19,6 +19,8 @@
 
 
     <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+
+    <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
     
 
     <script async custom-element="amp-instagram" src="https://cdn.ampproject.org/v0/amp-instagram-0.1.js"></script>
@@ -399,17 +401,6 @@ display: flex;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
     </style>
     <noscript
       ><style amp-boilerplate>
@@ -433,10 +424,6 @@ display: flex;
       <amp-story-page id="my-first-page">
         
   
-
-
-
-
         <amp-story-grid-layer template="fill" class="gradient">
         
                
@@ -910,29 +897,30 @@ display: flex;
   </p>
 
 
-  <amp-story-player style="width: 370px; height: 622px;">
-    <a href="https://ampfest-story-player-demo.web.app/examples/amp-story/AMPFestPlayerDemo/s3">
-      <img src="https://ss.makestories.io/get?story=-MHy2RL_9ZnDFYTFB2PY&version=1600916568756" loading="lazy" data-amp-story-player-poster-img width="370" height="622"></img>
-    </a>
 
 
-
-  <amp-youtube data-videoid="gYJ03GyrSrM" layout="responsive" width="16" height="9" title="Introducing How to AMP" 
-  class="i-amphtml-layout-responsive i-amphtml-layout-size-defined" i-amphtml-layout="responsive">
-    <i-amphtml-sizer style="display:block;padding-top:56.25%"></i-amphtml-sizer>
-    <a placeholder href="https://www.youtube.com/watch?v=gYJ03GyrSrM">
-      <amp-img src="https://i.ytimg.com/vi/gYJ03GyrSrM/hqdefault.jpg" layout="fill" object-fit="cover" alt="Introducing How to AMP" 
-      class="amp-wp-enforced-sizes" i-amphtml-ssr data-hero>
-        <img class="i-amphtml-fill-content i-amphtml-replaced-content" decoding="async" alt="Introducing How to AMP" src="https://i.ytimg.com/vi/gYJ03GyrSrM/hqdefault.jpg" style="object-fit:cover">
-      </amp-img>
-    </a>
-
-    <i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 56.259%;"></i-amphtml-sizer>
-   
+  <amp-youtube width="480" height="270" layout="responsive" data-videoid="lBTCB7yLs8Y" data-lazy-fetch="true" data-loading-strategy="1" data-param-modestbranding="1" data-param-rel="1">
   </amp-youtube>
+ 
 
-</amp-story-player>
-
+  
+    <!-- ## Social Sharing -->
+      <!-- The Social Share extension provides a common interface for share buttons. Learn more about `amp-social-share` [here](/documentation/components/amp-social-share). -->
+      <div class="m1">
+        <amp-social-share type="twitter"
+                          width="30"
+                          height="22"></amp-social-share>
+        <amp-social-share type="facebook"
+                          width="30"
+                          height="22"
+                          data-attribution="254325784911610"></amp-social-share>
+        <amp-social-share type="email"
+                          width="30"
+                          height="22"></amp-social-share>
+        
+                          <amp-social-share type="whatsapp" aria-label="Share on WhatsApp" width="30"
+                          height="22"></amp-social-share>                
+      </div>
 
 
 

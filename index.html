@@ -15,8 +15,8 @@
 
     <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
 
-
-    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+    <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+     <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
 
     <script async custom-element="amp-instagram" src="https://cdn.ampproject.org/v0/amp-instagram-0.1.js"></script>
 
@@ -420,7 +420,7 @@ display: flex;
       </amp-story-page>
 
 
-
+<!--First Page
       <amp-story-page id="first-page">   
         <amp-story-grid-layer template="fill" class="gradient">
         
@@ -453,7 +453,8 @@ display: flex;
              <small>New Dj ..... </small>
              <br>
              <br>
-               <h3 style="font-weight: normal;"> Obsessed with music and  makes awesome mixes. So awesome that he launches his own radio station. </h3>  
+               <h3 style="font-weight: normal;"> 
+              </h3>  
               
            
            </div>
@@ -470,6 +471,84 @@ display: flex;
 
 
       </amp-story-page>  
+
+First Page--end-->
+
+      <amp-story-page id="second-page">   
+        <amp-story-grid-layer template="fill" class="gradient">
+        
+               
+            <amp-img src="assets/images/slide2.png"
+          width="720" height="1280"
+          layout="responsive">
+      </amp-img>
+
+        </amp-story-grid-layer>
+
+
+
+
+
+     
+
+
+
+        <amp-story-grid-layer template="vertical" class="gradient;" style=" padding: 16px;" >
+          <div class="icon"></div>
+         </amp-story-grid-layer>
+
+        
+         <amp-story-grid-layer template="vertical">
+          <h2>
+            <span data-text-background-color="crimson" animate-in="fade-in" animate-in-duration="1s">
+            <small>hjk</small>  Cat ipsum dolor sit amet, sleeps on my head, but lounge in doorway so if
+              human is on laptop sit on the keyboard
+            </span>
+          </h2>
+        </amp-story-grid-layer>
+         
+
+
+        <amp-story-page-attachment layout="nodisplay" class="attachment;"  >
+
+          <div class="infobox"> 
+                    <h3 class="infobox-title">Share</h3>
+                  
+                  
+                  <div class="infobox-data">  
+              
+          
+               
+              </div>
+          
+            </div>
+                     
+               <!-- ## Social Sharing -->
+      
+               <div class="m1">
+                <amp-social-share type="twitter"
+                                  width="30"
+                                  height="22"></amp-social-share>
+                <amp-social-share type="facebook"
+                                  width="30"
+                                  height="22"
+                                  data-attribution="254325784911610"></amp-social-share>
+                <amp-social-share type="email"
+                                  width="30"
+                                  height="22"></amp-social-share>
+                
+                                  <amp-social-share type="whatsapp" aria-label="Share on WhatsApp" width="30"
+                                  height="22"></amp-social-share>                
+              </div>
+          
+          
+              </amp-story-page-attachment>
+
+      </amp-story-page>  
+
+
+
+
 
 
 
