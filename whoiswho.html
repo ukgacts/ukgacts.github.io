@@ -227,7 +227,7 @@
         .social-menu ul li {
             list-style: none;
             margin: 0 15px;
-            min-width: 25%;
+            min-width: 5%;
 
             flex: 1 1 0%;
 
@@ -252,11 +252,10 @@
             width: 40px;
             height: 40px;
             border-radius: 50%;
-            background-color: #fff;
+           
             text-align: center;
             transition: .6s;
-            border: 1px solid rgb(26, 115, 232);
-            color: rgb(26, 115, 232);
+            
             display: flex;
             align-items: center;
             justify-content: center;
@@ -274,10 +273,10 @@
 
 
 
-        .infobox {
-
-            margin-left: 15px;
-        }
+.attachment_container{
+   padding-right: 1rem;
+                padding-left: 1rem;
+}
 
         .infobox h3 {
 
@@ -415,11 +414,12 @@
 .icon-slide{
                 background-image: url('assets/logo.jpg');
   background-repeat: no-repeat;
-  background-size: 2.25rem 2.25rem;
-  height: 2.25rem;
+  background-size: 4.25rem 4.25rem;
+  height: 4.25rem;
   object-fit: contain;
-  width: 2.25rem;
+  width: 4.25rem;
   border-radius: 12%;
+  border: #ce9315 solid 3px;
 
             }
 
@@ -522,7 +522,7 @@
                 <div class="caption-bottom-right" animate-in="fade-in" animate-in-duration="1s" style="
    
      bottom: 0;
-       padding: 0% 3% 30% 3%;
+    
   
      font-family: 'Anton', sans-serif;
      place-self: self-end right;">
@@ -553,9 +553,9 @@
             <amp-story-page-attachment layout="nodisplay" class="attachment;" style=" color: black;">
 
 
+<div class="attachment_container"> 
 
-
-                <div class="infobox">
+                <div class="attachment_infobox" style="margin-top: 1rem;">
 
 
 
@@ -563,11 +563,14 @@
         flex-direction: row; align-items: center;">
 
 
-                        <amp-img src="assets/slater.png" width="80" height="80" layout="fixed"
-                            style="place-self: center; border-radius:50%;">
+                        <amp-img src="assets/images/biicla.jpg" width="160" height="160" layout="fixed"
+                            style="place-self: center; border-radius:12%;">
                         </amp-img>
+<div> 
+                        <h3 class="infobox-title" style="margin-left: 0.5rem;"> Biicla </h3>
+                        <small style="margin-left: 0.5rem;"> DJ, Musician, Producer</small>
 
-                        <h3 class="infobox-title" style="margin-left: 0.5rem;"> AC Slater </h3>
+                    </div>
                     </div>
 
 
@@ -581,6 +584,33 @@
                     </div>
                 </div>
 
+
+
+
+      
+
+
+
+                <div class="attachment_supporting-text pr pl" >
+
+
+                    <p style="color: black;     font-family: Roboto, Arial, sans-serif;
+  line-height: 1.25rem;
+  font-size: 0.875rem;">
+
+Showcasing his trademark sound of sampling and skill in song writing. Biicla, from a small Russian
+town has been making waves in the US a truly unique sound signature that makes him stand out from
+amongst the rest! <br> Playing huge sell out shows and now making a name for himself in UK Garage scene
+with his cross over Garage/ Bass house style sound this artist is one to keep an eye on for a decent
+international brand!
+
+
+                    </p>
+
+
+
+
+                </div>
 
                 <div class="social-menu">
                     <ul>
@@ -627,145 +657,53 @@
 
                         <li><a href="https://twitter.com/nightbass" target="blank">
 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-twitter">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    >
                                     <path
                                         d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
                                     </path>
                                 </svg>
                             </a></li>
 
-                    </ul>
+
+
+
+                            <li>
+                                <a href="https://open.spotify.com/artist/72heZIc2iMXdpDwsTjTcCQ" rel="noopener noreferer" target="_blank">
+                                    <div class="w-5 h-5">
+                                        <svg role="img" viewBox="0 0 24 24" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><title>Spotify</title><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"></path></svg></div></a>
+                            </li>
+<li>
+                            <a href="https://soundcloud.com/biicla" rel="noopener noreferer" target="_blank">
+                                <div class="w-5 h-5">
+                                    <svg role="img" viewBox="0 0 24 24" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><title>SoundCloud</title><path d="M1.175 12.225c-.051 0-.094.046-.101.1l-.233 2.154.233 2.105c.007.058.05.098.101.098.05 0 .09-.04.099-.098l.255-2.105-.27-2.154c0-.057-.045-.1-.09-.1m-.899.828c-.06 0-.091.037-.104.094L0 14.479l.165 1.308c0 .055.045.094.09.094s.089-.045.104-.104l.21-1.319-.21-1.334c0-.061-.044-.09-.09-.09m1.83-1.229c-.061 0-.12.045-.12.104l-.21 2.563.225 2.458c0 .06.045.12.119.12.061 0 .105-.061.121-.12l.254-2.474-.254-2.548c-.016-.06-.061-.12-.121-.12m.945-.089c-.075 0-.135.06-.15.135l-.193 2.64.21 2.544c.016.077.075.138.149.138.075 0 .135-.061.15-.15l.24-2.532-.24-2.623c0-.075-.06-.135-.135-.135l-.031-.017zm1.155.36c-.005-.09-.075-.149-.159-.149-.09 0-.158.06-.164.149l-.217 2.43.2 2.563c0 .09.075.157.159.157.074 0 .148-.068.148-.158l.227-2.563-.227-2.444.033.015zm.809-1.709c-.101 0-.18.09-.18.181l-.21 3.957.187 2.563c0 .09.08.164.18.164.094 0 .174-.09.18-.18l.209-2.563-.209-3.972c-.008-.104-.088-.18-.18-.18m.959-.914c-.105 0-.195.09-.203.194l-.18 4.872.165 2.548c0 .12.09.209.195.209.104 0 .194-.089.21-.209l.193-2.548-.192-4.856c-.016-.12-.105-.21-.21-.21m.989-.449c-.121 0-.211.089-.225.209l-.165 5.275.165 2.52c.014.119.104.225.225.225.119 0 .225-.105.225-.225l.195-2.52-.196-5.275c0-.12-.105-.225-.225-.225m1.245.045c0-.135-.105-.24-.24-.24-.119 0-.24.105-.24.24l-.149 5.441.149 2.503c.016.135.121.24.256.24s.24-.105.24-.24l.164-2.503-.164-5.456-.016.015zm.749-.134c-.135 0-.255.119-.255.254l-.15 5.322.15 2.473c0 .15.12.255.255.255s.255-.12.255-.27l.15-2.474-.165-5.307c0-.148-.12-.27-.271-.27m1.005.166c-.164 0-.284.135-.284.285l-.103 5.143.135 2.474c0 .149.119.277.284.277.149 0 .271-.12.284-.285l.121-2.443-.135-5.112c-.012-.164-.135-.285-.285-.285m1.184-.945c-.045-.029-.105-.044-.165-.044s-.119.015-.165.044c-.09.054-.149.15-.149.255v.061l-.104 6.048.115 2.449v.008c.008.06.03.135.074.18.058.061.142.104.234.104.08 0 .158-.044.209-.09.058-.06.091-.135.091-.225l.015-.24.117-2.203-.135-6.086c0-.104-.061-.193-.135-.239l-.002-.022zm1.006-.547c-.045-.045-.09-.061-.15-.061-.074 0-.149.016-.209.061-.075.061-.119.15-.119.24v.029l-.137 6.609.076 1.215.061 1.185c0 .164.148.314.328.314.181 0 .33-.15.33-.329l.15-2.414-.15-6.637c0-.12-.074-.221-.165-.277m8.934 3.777c-.405 0-.795.086-1.139.232-.24-2.654-2.46-4.736-5.188-4.736-.659 0-1.305.135-1.889.359-.225.09-.27.18-.285.359v9.368c.016.18.15.33.33.345h8.185C22.681 17.218 24 15.914 24 14.28s-1.319-2.952-2.938-2.952"></path></svg></div></a>
+
+                                </li>
+                   
+                   <li><a rel="noopener noreferer" target="_blank"><div class="w-5 h-5">
+                    <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  width="20" height="20"><title>Facebook</title><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></div></a></li>
+                   
+                                </ul>
 
                 </div>
-
 
                 <iframe src="https://embed.beatport.com/?id=3424036&type=release" width="100%" height="162"
-                    frameborder="0" scrolling="no" style="max-width:600px;"></iframe>
+                frameborder="0" scrolling="no" style="max-width:600px; margin-bottom: 1rem;"></iframe>
+
+<div class="attachment_footer" style="border-top: 1px solid #efefef;">
+    
+    <p style="color: black;     font-family: Roboto, Arial, sans-serif;
+    line-height: 1.25rem;
+    font-size: 0.875rem;">Footer...
+    <br>
+    © 2024 Something</p>
+      
 
 
 
-                <div>
+</div>
 
-
-                    <p style="color: black;     font-family: Roboto, Arial, sans-serif;
-  line-height: 1.25rem;
-  font-size: 0.875rem;">
-
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Eget nunc lobortis mattis aliquam faucibus purus. Malesuada fames
-                        ac turpis egestas integer eget aliquet nibh. Mauris nunc congue nisi vitae suscipit tellus
-                        mauris a diam. Erat velit scelerisque in dictum. Mi bibendum neque egestas congue. Mauris augue
-                        neque gravida in fermentum et sollicitudin ac orci. Maecenas pharetra convallis posuere morbi.
-                        Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Dui nunc
-                        mattis enim ut tellus elementum sagittis vitae et. Venenatis cras sed felis eget velit aliquet
-                        sagittis. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Ut faucibus
-                        pulvinar elementum integer enim neque volutpat ac.
-
-                        Massa id neque aliquam vestibulum. Amet aliquam id diam maecenas ultricies mi eget mauris.
-                        Adipiscing diam donec adipiscing tristique risus. Nisl suscipit adipiscing bibendum est
-                        ultricies integer quis auctor. Tempor id eu nisl nunc mi ipsum faucibus. Blandit cursus risus at
-                        ultrices mi tempus imperdiet nulla. Tempor commodo ullamcorper a lacus vestibulum sed arcu.
-                        Dolor sit amet consectetur adipiscing elit ut aliquam. A pellentesque sit amet porttitor eget
-                        dolor morbi. Cursus eget nunc scelerisque viverra mauris in.
-
-
-                    </p>
-
-
-
-
-                    <amp-youtube width="480" height="270" layout="responsive" data-videoid="lBTCB7yLs8Y"
-                        data-lazy-fetch="true" data-loading-strategy="1" data-param-modestbranding="1"
-                        data-param-rel="1">
-                    </amp-youtube>
-
-
-
-                    <!-- ## Social Sharing -->
-                    <!-- The Social Share extension provides a common interface for share buttons. Learn more about `amp-social-share` [here](/documentation/components/amp-social-share). -->
-                    <div class="m1">
-                        <amp-social-share type="twitter" width="30" height="22"></amp-social-share>
-                        <amp-social-share type="facebook" width="30" height="22"
-                            data-attribution="254325784911610"></amp-social-share>
-                        <amp-social-share type="email" width="30" height="22"></amp-social-share>
-
-                        <amp-social-share type="whatsapp" aria-label="Share on WhatsApp" width="30"
-                            height="22"></amp-social-share>
-                    </div>
-
-
-
-                    <p style="color: black;     font-family: Roboto, Arial, sans-serif;
-  line-height: 1.25rem;
-  font-size: 0.875rem;">
-                        Quam lacus suspendisse faucibus interdum posuere lorem. Tincidunt eget nullam non nisi est. Nunc
-                        faucibus a pellentesque sit amet porttitor eget dolor. Ut placerat orci nulla pellentesque
-                        dignissim enim sit amet. Dignissim sodales ut eu sem integer vitae. Duis at tellus at urna
-                        condimentum. Aliquet nec ullamcorper sit amet risus nullam. Diam sollicitudin tempor id eu nisl.
-                        Turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Consequat nisl vel pretium
-                        lectus quam id leo in vitae. Tempor commodo ullamcorper a lacus vestibulum sed. Varius sit amet
-                        mattis vulputate enim. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Tempus
-                        quam pellentesque nec nam aliquam sem. Dictumst vestibulum rhoncus est pellentesque elit
-                        ullamcorper dignissim. Neque sodales ut etiam sit amet. Integer eget aliquet nibh praesent
-                        tristique magna sit.
-
-                        Id ornare arcu odio ut. Tempor orci dapibus ultrices in. Mauris in aliquam sem fringilla ut
-                        morbi tincidunt. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. Massa
-                        ultricies mi quis hendrerit. Vitae congue eu consequat ac felis. Senectus et netus et malesuada
-                        fames ac turpis egestas sed. Gravida in fermentum et sollicitudin ac. Non consectetur a erat nam
-                        at. Blandit turpis cursus in hac habitasse platea. A condimentum vitae sapien pellentesque
-                        habitant morbi tristique senectus. Urna duis convallis convallis tellus id interdum velit. Orci
-                        dapibus ultrices in iaculis nunc sed. Vitae sapien pellentesque habitant morbi tristique
-                        senectus et netus et. At varius vel pharetra vel turpis nunc eget. Feugiat vivamus at augue
-                        eget. Massa sed elementum tempus egestas sed sed. Mauris sit amet massa vitae tortor condimentum
-                        lacinia quis. Massa eget egestas purus viverra accumsan. Orci porta non pulvinar neque laoreet
-                        suspendisse.
-
-                        Quam vulputate dignissim suspendisse in est. Arcu dictum varius duis at. Nec feugiat in
-                        fermentum posuere. Quis blandit turpis cursus in hac habitasse platea dictumst quisque.
-                        Imperdiet dui accumsan sit amet nulla. Nec dui nunc mattis enim ut. In ante metus dictum at
-                        tempor commodo ullamcorper. Gravida quis blandit turpis cursus in hac. Tempor id eu nisl nunc.
-                        Nunc pulvinar sapien et ligula ullamcorper. Nisi lacus sed viverra tellus in hac. Pulvinar etiam
-                        non quam lacus suspendisse. Tortor aliquam nulla facilisi cras. Sagittis eu volutpat odio
-                        facilisis mauris sit amet massa vitae. In massa tempor nec feugiat. Lobortis feugiat vivamus at
-                        augue eget.
-
-                        Duis ut diam quam nulla porttitor massa id neque. Rhoncus est pellentesque elit ullamcorper
-                        dignissim. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt augue interdum
-                        velit euismod in pellentesque massa placerat. Felis donec et odio pellentesque diam volutpat
-                        commodo. Amet dictum sit amet justo donec enim. Odio pellentesque diam volutpat commodo sed
-                        egestas egestas. Posuere urna nec tincidunt praesent semper. Nunc faucibus a pellentesque sit.
-                        Arcu cursus vitae congue mauris rhoncus aenean. Scelerisque purus semper eget duis at tellus.
-                        Tellus cras adipiscing enim eu turpis egestas pretium. Phasellus vestibulum lorem sed risus
-                        ultricies. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. Interdum
-                        consectetur libero id faucibus. Nec sagittis aliquam malesuada bibendum arcu. In nibh mauris
-                        cursus mattis molestie a iaculis at erat. Felis eget nunc lobortis mattis aliquam faucibus purus
-                        in massa. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Accumsan tortor
-                        posuere ac ut consequat semper.
-
-                        Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Id cursus metus aliquam eleifend
-                        mi in nulla posuere. Dui vivamus arcu felis bibendum ut tristique et egestas quis. Nec tincidunt
-                        praesent semper feugiat nibh sed pulvinar proin gravida. Nec dui nunc mattis enim. Neque viverra
-                        justo nec ultrices dui sapien eget. Imperdiet sed euismod nisi porta. Eget sit amet tellus cras
-                        adipiscing. Mattis vulputate enim nulla aliquet porttitor lacus. Massa placerat duis ultricies
-                        lacus sed. Pellentesque sit amet porttitor eget dolor morbi non arcu risus. Turpis tincidunt id
-                        aliquet risus feugiat in ante. Arcu ac tortor dignissim convallis aenean et tortor at. Risus
-                        viverra adipiscing at in tellus integer feugiat scelerisque varius. Sit amet consectetur
-                        adipiscing elit. Interdum posuere lorem ipsum dolor. Pellentesque pulvinar pellentesque habitant
-                        morbi tristique senectus. Eu scelerisque felis imperdiet proin fermentum leo. Tempus iaculis
-                        urna id volutpat lacus.
-
-
-                    </p>
-
-
-                </div>
-
-
-
-
+            </div>
 
 
 
@@ -907,6 +845,12 @@
                                     </path>
                                 </svg>
                             </a></li>
+
+
+
+
+
+
 
                     </ul>
 
