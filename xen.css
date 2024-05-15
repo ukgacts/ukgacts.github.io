@@ -1,0 +1,202 @@
+/**xen***/
+
+
+.pr1 {
+    padding-right: 1rem;
+
+}
+
+.pl1 {
+    padding-left: 1rem;
+
+}
+
+
+.icon-slide {
+    background-image: url('assets/logo.jpg');
+    background-repeat: no-repeat;
+    background-size: 4.25rem 4.25rem;
+    height: 4.25rem;
+    object-fit: contain;
+    width: 4.25rem;
+    border-radius: 12%;
+    box-shadow: 0 0 0 2px #dd9d16;
+}
+
+
+.caption-bottom-right {
+
+    padding-bottom: 25%;
+    padding-left: 44%;
+    position: absolute;
+    bottom: 0;
+    font-family: 'Anton', sans-serif;
+}
+
+
+.caption-bottom-right h3 {
+    font-weight: normal;
+    font-size: 3.17rem;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: #ce9213;
+    -webkit-text-stroke-width: 2px;
+}
+
+
+
+
+
+
+/*attachment_xen*/
+
+
+
+
+
+.attachment_bg-svg {
+    background-image: url(https://assets-global.website-files.com/61f2936079ce67606fdade16/66333801a50adae5bb88fb39_Frame%209.svg);
+}
+
+.attachment_bg-grey {
+    background-color: #e3e1dc;
+
+}
+
+.attachment_infobox {
+    padding-top: 1em;
+}
+
+.attachment_infobox_photo-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.attachment_infobox_photo-wrapper amp-img {
+
+    place-self: center;
+    border-radius: 12%;
+    margin-top: 1rem;
+    width: 160px;
+    height: 160px;
+}
+
+.attachment_supporting-text {
+    padding-top: 1.527em;
+}
+
+.attachment_supporting-text p {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    letter-spacing: -.018em;
+    line-height: 1.193;
+    font-weight: 500;
+}
+
+
+.social-menu ul {
+    margin-bottom: 0;
+    padding-bottom: 1.666em;
+}
+
+.infobox h3 {
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-block: 0;
+}
+
+.infobox-data {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 1em;
+    font-weight: 400;
+    line-height: 1.33;
+    font-size: 1.04167em;
+    color: #70757a;
+    font-family: Roboto, Arial, sans-serif;
+
+}
+
+.infobox-title {
+    margin-left: 0.5rem;
+    margin-bottom: 0;
+
+}
+
+
+
+.infobox-data svg {
+    padding-left: 6px;
+    padding-right: 4px;
+}
+
+
+.attachment_container p {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+}
+
+
+.review-block {
+    background-color: rgb(227, 225, 220);
+    padding-right: 1rem;
+    margin-top: -10px;
+    font-family: Roboto, Arial, sans-serif;
+
+
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    "
+
+}
+
+.attachment_footer {
+    border-top: 1px solid #efefef;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.attachment_footer p {
+    color: #333132;
+    font-size: 12px;
+    line-height: 140%;
+}
+
+/*quote_xen*/
+.quote-title {
+    margin-bottom: 1.888em;
+    font-size: 1.25em;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    margin-top: .611em;
+
+}
+
+.quote {
+
+
+    font-size: 1.111em;
+    line-height: 1.5;
+    font-size: 1.1em;
+
+    margin-bottom: 1.666em;
+    display: block;
+    font-weight: 500;
+
+}
+
+.review-block span {
+    font-weight: 500;
+}
+
+
+/***xen-end***/

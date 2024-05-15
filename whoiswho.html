@@ -30,7 +30,7 @@
 
 
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
-    <title>Hello, amp-story</title>
+    <title>UKG Scene</title>
     <link rel="canonical" href="http://example.ampproject.org/my-story.html" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
 
@@ -157,11 +157,7 @@
 
            }
 
-        q {
-            font-weight: 500;
-            font-size: 1.1em;
-            font-family: Roboto, Arial, sans-serif;
-        }
+
 
         amp-story-grid-layer.bottom {
             align-content: end;
@@ -195,7 +191,7 @@
             object-fit: contain;
             width: 4.25rem;
             border-radius: 12%;
-            outline: 4px solid #d29515;
+            outline: 2px solid #d29515;
 
         }
 
@@ -384,29 +380,55 @@
 /**xen***/
 
 
-.pr1{
+.pr1 {
     padding-right: 1rem;
 
 }
 
-.pl1{
+.pl1 {
     padding-left: 1rem;
 
 }
 
 
-.icon-slide{
-                background-image: url('assets/logo.jpg');
-  background-repeat: no-repeat;
-  background-size: 4.25rem 4.25rem;
-  height: 4.25rem;
-  object-fit: contain;
-  width: 4.25rem;
-  border-radius: 12%;
-  box-shadow: 0 0 0 3px #dd9d16;
-            }
+.icon-slide {
+    background-image: url('assets/logo.jpg');
+    background-repeat: no-repeat;
+    background-size: 4.25rem 4.25rem;
+    height: 4.25rem;
+    object-fit: contain;
+    width: 4.25rem;
+    border-radius: 12%;
+    box-shadow: 0 0 0 2px #dd9d16;
+}
+
+
+.caption-bottom-right {
+
+    padding-bottom: 25%;
+    padding-left: 44%;
+    position: absolute;
+    bottom: 0;
+    font-family: 'Anton', sans-serif;
+}
+
+
+.caption-bottom-right h3 {
+    font-weight: normal;
+    font-size: 3.17rem;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: #ce9213;
+    -webkit-text-stroke-width: 2px;
+}
+
+
+
+
+
 
 /*attachment_xen*/
+
+
 
 
 
@@ -420,67 +442,143 @@
 }
 
 .attachment_infobox {
-  padding-top: 1em;
+    padding-top: 1em;
 }
 
 .attachment_infobox_photo-wrapper {
     display: flex;
-        flex-direction: row; align-items: center;
-} 
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.attachment_infobox_photo-wrapper amp-img {
+
+    place-self: center;
+    border-radius: 12%;
+    margin-top: 1rem;
+    width: 160px;
+    height: 160px;
+}
+
+.attachment_supporting-text {
+    padding-top: 1.527em;
+}
+
+.attachment_supporting-text p {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    letter-spacing: -.018em;
+    line-height: 1.193;
+    font-weight: 500;
+}
+
+
+.social-menu ul {
+    margin-bottom: 0;
+    padding-bottom: 1.666em;
+}
 
 .infobox h3 {
 
-font-size: 20px;
-font-weight: 400;
-line-height: 26px;
-margin-block: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-block: 0;
 }
 
 .infobox-data {
-display: flex;
-align-items: center;
-margin-top: 8px;
-margin-bottom: 1em;
-  font-weight: 400;
-  line-height: 1.33;
-  font-size: 1.04167em;
-  color: #70757a;
-  font-family: Roboto, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 1em;
+    font-weight: 400;
+    line-height: 1.33;
+    font-size: 1.04167em;
+    color: #70757a;
+    font-family: Roboto, Arial, sans-serif;
 
 }
 
+.infobox-title {
+    margin-left: 0.5rem;
+    margin-bottom: 0;
 
+}
 
 
 
 .infobox-data svg {
-padding-left: 6px;
-padding-right: 4px;
+    padding-left: 6px;
+    padding-right: 4px;
 }
 
 
-            .attachment_container p {
-  color: black;
-  font-family: Roboto, Arial, sans-serif;
-  line-height: 1.25rem;
-  font-size: 0.875rem;
+.attachment_container p {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+}
+
+
+.review-block {
+    background-color: rgb(227, 225, 220);
+    padding-right: 1rem;
+    margin-top: -10px;
+    font-family: Roboto, Arial, sans-serif;
+
+
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    "
+
+}
+
+.attachment_footer {
+    border-top: 1px solid #efefef;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 .attachment_footer p {
-  color: #333132;
-  font-size: 12px;
+    color: #333132;
+    font-size: 12px;
     line-height: 140%;
-        }
+}
 
 /*quote_xen*/
 .quote-title {
-margin-bottom: 1.888em;
-font-size: 1.25em;
-font-family: Roboto, Arial, sans-serif;
-font-weight: 500;
-margin-top: .611em;
+    margin-bottom: 1.888em;
+    font-size: 1.25em;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    margin-top: .611em;
 
 }
+
+.quote {
+
+
+    font-size: 1.111em;
+    line-height: 1.5;
+    font-size: 1.1em;
+
+    margin-bottom: 1.666em;
+    display: block;
+    font-weight: 500;
+
+}
+
+.review-block span {
+    font-weight: 500;
+}
+
+
+/***xen-end***/
 
 
 
@@ -594,16 +692,10 @@ margin-top: .611em;
                 <div class="icon-slide"></div>
             </amp-story-grid-layer>
 
-            <amp-story-grid-layer template="vertical" style="align-content:end;">
+            <amp-story-grid-layer template="vertical" style="align-content:end; ">
 
 
-                <div class="caption-bottom-right" animate-in="fade-in" animate-in-duration="1s" style="
-   
-     bottom: 0;
-    
-  
-     font-family: 'Anton', sans-serif;
-     place-self: self-end right;">
+                <div class="caption-bottom-right" style="padding-left: 62%;">
 
                     <h3 style="font-weight: normal; font-size: 3.17rem; -webkit-text-fill-color: white;
                     -webkit-text-stroke-color: #ce9213;
@@ -752,7 +844,7 @@ international brand!
             <iframe src="https://open.spotify.com/embed/album/4i6iFPnEWL7MwYjOUlqcvk?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 
-                <div class="review-block" style="background-color: rgb(228, 135, 93); padding-right: 1rem; margin-top: -10px;
+                <div class="review-block" style="background-color: rgb(227, 225, 220); padding-right: 1rem; margin-top: -10px;
                 padding-left: 1rem;
                 padding-top: 1rem;
                 padding-bottom: 1rem;"> 
@@ -779,9 +871,9 @@ international brand!
 padding-left: 1rem;">
 
     
-    <p>Footer...
+    <p>Yo Deejay, keeping you upto Date with UKG
     <br>
-    © 2024 Something</p>
+    © May 2024 </p>
       
 
 
@@ -803,66 +895,60 @@ padding-left: 1rem;">
 
         <!---- Second Page-->
 
+        <amp-story-page id="page-2">
 
+            <amp-story-grid-layer class="video container" template="fill">
 
-
-
-        <amp-story-page id="page-3">
-
-            <amp-story-grid-layer template="vertical" class="gradient;" style=" padding: 16px;">
-                <div class="icon"></div>
-            </amp-story-grid-layer>
-
-
-            <amp-story-grid-layer class="container" template="fill">
-
-                <amp-video autoplay loop width="720" height="1280" poster="assets/once.jpg" layout="fill"
+                <amp-video autoplay loop width="720" height="1280" poster="assets/images/dj.png" layout="fill"
                     cache="google">
-                    <source src="assets/video/slater.mp4" type="video/mp4">
+                    <source src="assets/video/bushbaby-comp.mp4" type="video/mp4">
 
             </amp-story-grid-layer>
 
+            <amp-story-grid-layer template="vertical" class=" gradient;" style=" padding: 16px;">
+                <div class="icon-slide"></div>
+            </amp-story-grid-layer>
 
-            <amp-story-grid-layer template="vertical" class="gradient;" style=" padding: 16px;">
+            <amp-story-grid-layer template="vertical" style="align-content:end; ">
 
 
+                <div class="caption-bottom-right" style="padding-left: 5%;
+                padding-bottom: 55%;"  >
 
+                    <h3 >
+                        Bushbaby
 
-
-
-                <div class="caption-bottom" animate-in="fly-in-bottom" animate-in-duration="1s">
-
-                    <small>Musician and Producer</small>
-                    <p> One of brightest UKG DJs who is easily paired with another DJ. Swipe up to learn more </p>
+                    </h3>
 
 
                 </div>
 
 
-
-                <div class="pagination">
-                    <p>5</p>
-                </div>
             </amp-story-grid-layer>
+
+
+
 
             <amp-story-page-attachment layout="nodisplay" class="attachment;" style=" color: black;">
 
 
+<div class="attachment_bg-svg"> 
+
+                <div class="attachment_infobox pr1 pl1">
 
 
-                <div class="infobox">
+
+                    <div class="attachment_infobox_photo-wrapper">
 
 
-
-                    <div class="icon-wrapper" style=" display: flex;
-        flex-direction: row; align-items: center;">
-
-
-                        <amp-img src="assets/slater.png" width="80" height="80" layout="fixed"
-                            style="place-self: center; border-radius:50%;">
+                        <amp-img src="assets/images/bushbaby.png" width="160" height="160" layout="fixed"
+                           >
                         </amp-img>
+<div> 
+                        <h1 class="infobox-title"> Bushbaby </h1>
+                        <small style="margin-left: 0.5rem;"> DJ, Musician, Producer</small>
 
-                        <h3 class="infobox-title" style="margin-left: 0.5rem;"> AC Slater </h3>
+                    </div>
                     </div>
 
 
@@ -876,21 +962,33 @@ padding-left: 1rem;">
                     </div>
                 </div>
 
+            </div>
+<div class="attachment_bg-grey"> 
+                <div class="attachment_supporting-text pr1 pl1 "  >
 
-                <div class="social-menu">
+
+                    <p>
+
+A key member of Brighton’s perennially on-point bass collective Southpoint, Bushbaby (real name Harry Bushby) has been bubbling away since 2015, solidly firing off bassline bangers and broken bumpers that have been supported by the likes of My Nu Leng, DJ Zinc, Chris Lorenzo, Taiki Nulight. 
+
+
+                    </p>
+
+
+
+
+                </div>
+
+                <div class="social-menu pl1 pr1">
                     <ul>
 
-
-
-
-
                         <li>
-                            <a href="https://www.youtube.com/channel/UCL9hNs37uncHth3eCIIDHiQ" target="_blank"
+                            <a href="https://www.youtube.com/@bushbabybeats" target="_blank"
                                 rel="noopener noreferrer">
 
 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                                    fill="none" stroke="black" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="feather feather-youtube">
                                     <path
                                         d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
@@ -903,11 +1001,11 @@ padding-left: 1rem;">
                         </li>
                         <li>
 
-                            <a href="https://www.instagram.com/nightbass" target="blank">
+                            <a href="https://www.instagram.com/bushbabybeats/?hl=en" target="blank">
 
 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                <svg xmlns="http://www.w3.org/2000/svg" wwidth="28" height="28"  viewBox="0 0 24 24"
+                                    fill="none" stroke="black" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="feather feather-instagram">
                                     <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
                                     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
@@ -919,428 +1017,140 @@ padding-left: 1rem;">
                                 </i></a>
                         </li>
 
+                            <li>
+                                <a href="https://open.spotify.com/artist/6YYg4TQoF8cp50IuM2vU4C?si=htaevYg1QXKXMeXjmrv9Bw" rel="noopener noreferer" target="_blank">
+                                    <div class="w-5 h-5">
+                                        <svg role="img" viewBox="0 0 24 24" width="28" height="28"  xmlns="http://www.w3.org/2000/svg"><title>Spotify</title><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"></path></svg></div></a>
+                            </li>
+<li>
+                            <a href="https://soundcloud.com/bushbaby" rel="noopener noreferer" target="_blank">
+                                <div class="w-5 h-5">
+                                    <svg role="img" viewBox="0 0 24 24" width="28" height="28"  xmlns="http://www.w3.org/2000/svg"><title>SoundCloud</title><path d="M1.175 12.225c-.051 0-.094.046-.101.1l-.233 2.154.233 2.105c.007.058.05.098.101.098.05 0 .09-.04.099-.098l.255-2.105-.27-2.154c0-.057-.045-.1-.09-.1m-.899.828c-.06 0-.091.037-.104.094L0 14.479l.165 1.308c0 .055.045.094.09.094s.089-.045.104-.104l.21-1.319-.21-1.334c0-.061-.044-.09-.09-.09m1.83-1.229c-.061 0-.12.045-.12.104l-.21 2.563.225 2.458c0 .06.045.12.119.12.061 0 .105-.061.121-.12l.254-2.474-.254-2.548c-.016-.06-.061-.12-.121-.12m.945-.089c-.075 0-.135.06-.15.135l-.193 2.64.21 2.544c.016.077.075.138.149.138.075 0 .135-.061.15-.15l.24-2.532-.24-2.623c0-.075-.06-.135-.135-.135l-.031-.017zm1.155.36c-.005-.09-.075-.149-.159-.149-.09 0-.158.06-.164.149l-.217 2.43.2 2.563c0 .09.075.157.159.157.074 0 .148-.068.148-.158l.227-2.563-.227-2.444.033.015zm.809-1.709c-.101 0-.18.09-.18.181l-.21 3.957.187 2.563c0 .09.08.164.18.164.094 0 .174-.09.18-.18l.209-2.563-.209-3.972c-.008-.104-.088-.18-.18-.18m.959-.914c-.105 0-.195.09-.203.194l-.18 4.872.165 2.548c0 .12.09.209.195.209.104 0 .194-.089.21-.209l.193-2.548-.192-4.856c-.016-.12-.105-.21-.21-.21m.989-.449c-.121 0-.211.089-.225.209l-.165 5.275.165 2.52c.014.119.104.225.225.225.119 0 .225-.105.225-.225l.195-2.52-.196-5.275c0-.12-.105-.225-.225-.225m1.245.045c0-.135-.105-.24-.24-.24-.119 0-.24.105-.24.24l-.149 5.441.149 2.503c.016.135.121.24.256.24s.24-.105.24-.24l.164-2.503-.164-5.456-.016.015zm.749-.134c-.135 0-.255.119-.255.254l-.15 5.322.15 2.473c0 .15.12.255.255.255s.255-.12.255-.27l.15-2.474-.165-5.307c0-.148-.12-.27-.271-.27m1.005.166c-.164 0-.284.135-.284.285l-.103 5.143.135 2.474c0 .149.119.277.284.277.149 0 .271-.12.284-.285l.121-2.443-.135-5.112c-.012-.164-.135-.285-.285-.285m1.184-.945c-.045-.029-.105-.044-.165-.044s-.119.015-.165.044c-.09.054-.149.15-.149.255v.061l-.104 6.048.115 2.449v.008c.008.06.03.135.074.18.058.061.142.104.234.104.08 0 .158-.044.209-.09.058-.06.091-.135.091-.225l.015-.24.117-2.203-.135-6.086c0-.104-.061-.193-.135-.239l-.002-.022zm1.006-.547c-.045-.045-.09-.061-.15-.061-.074 0-.149.016-.209.061-.075.061-.119.15-.119.24v.029l-.137 6.609.076 1.215.061 1.185c0 .164.148.314.328.314.181 0 .33-.15.33-.329l.15-2.414-.15-6.637c0-.12-.074-.221-.165-.277m8.934 3.777c-.405 0-.795.086-1.139.232-.24-2.654-2.46-4.736-5.188-4.736-.659 0-1.305.135-1.889.359-.225.09-.27.18-.285.359v9.368c.016.18.15.33.33.345h8.185C22.681 17.218 24 15.914 24 14.28s-1.319-2.952-2.938-2.952"></path></svg></div></a>
 
-                        <li><a href="https://twitter.com/nightbass" target="blank">
-
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-twitter">
-                                    <path
-                                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
-                                    </path>
-                                </svg>
-                            </a></li>
-
-
-
-
-
-
-
-                    </ul>
+                                </li>
+                   
+                   <li>
+                    <a href="https://m.facebook.com/bushbabybeats?locale=zh_CN" rel="noopener noreferer" target="_blank"><div class="w-5 h-5">
+                    <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  width="28" height="28" ><title>Facebook</title><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></div></a></li>
+                   
+                </ul>
 
                 </div>
 
+            </div>        
+          
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3WxoCgsKhjoRRIgaTfctaO?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-                <iframe src="https://embed.beatport.com/?id=3424036&type=release" width="100%" height="162"
-                    frameborder="0" scrolling="no" style="max-width:600px;"></iframe>
-
-
-
-                <div>
-
-
-                    <p style="color: black;     font-family: Roboto, Arial, sans-serif;
-  line-height: 1.25rem;
-  font-size: 0.875rem;">
-
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Eget nunc lobortis mattis aliquam faucibus purus. Malesuada fames
-                        ac turpis egestas integer eget aliquet nibh. Mauris nunc congue nisi vitae suscipit tellus
-                        mauris a diam. Erat velit scelerisque in dictum. Mi bibendum neque egestas congue. Mauris augue
-                        neque gravida in fermentum et sollicitudin ac orci. Maecenas pharetra convallis posuere morbi.
-                        Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Dui nunc
-                        mattis enim ut tellus elementum sagittis vitae et. Venenatis cras sed felis eget velit aliquet
-                        sagittis. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Ut faucibus
-                        pulvinar elementum integer enim neque volutpat ac.
-
-                        Massa id neque aliquam vestibulum. Amet aliquam id diam maecenas ultricies mi eget mauris.
-                        Adipiscing diam donec adipiscing tristique risus. Nisl suscipit adipiscing bibendum est
-                        ultricies integer quis auctor. Tempor id eu nisl nunc mi ipsum faucibus. Blandit cursus risus at
-                        ultrices mi tempus imperdiet nulla. Tempor commodo ullamcorper a lacus vestibulum sed arcu.
-                        Dolor sit amet consectetur adipiscing elit ut aliquam. A pellentesque sit amet porttitor eget
-                        dolor morbi. Cursus eget nunc scelerisque viverra mauris in.
-
-
-                    </p>
+                <div class="review-block"> 
+                    <svg width="52" height="44" viewBox="0 0 52 44" fill="black" xmlns="http://www.w3.org/2000/svg" style="max-width: 2.411em;
+                    height: 2.013em;">
+                        <path d="M24.5 7L14 0C3.6 7.2 0.666667 21.3333 0.5 27.5L0 44H18C17.8333 41.6667 17.6 34.7 18 25.5C18.4 16.3 22.5 9.33333 24.5 7Z" />
+                        <path d="M52 7L41.5 0C31.1 7.2 28.1667 21.3333 28 27.5L27.5 44H45.5C45.3333 41.6667 45.1 34.7 45.5 25.5C45.9 16.3 50 9.33333 52 7Z" />
+                        </svg>
+                       
+                        
+                        <h3 class="quote-title">In their words</h3>
+                
+ 
+                         <div class="quote">
+                            
+                            I definitely don’t want to be pigeonholed into any category and always want to show I’m capable of making more than bangers. I want to give people a taste of everything early on so it’s not a shock.
+                        </div>
+                            <span >
+                            
+                            Bushbaby
+                        </span>
+                     
+                
+                        </div>
 
 
 
+<div class="attachment_footer">
 
-                    <amp-youtube width="480" height="270" layout="responsive" data-videoid="lBTCB7yLs8Y"
-                        data-lazy-fetch="true" data-loading-strategy="1" data-param-modestbranding="1"
-                        data-param-rel="1">
-                    </amp-youtube>
-
-
-
-                    <!-- ## Social Sharing -->
-                    <!-- The Social Share extension provides a common interface for share buttons. Learn more about `amp-social-share` [here](/documentation/components/amp-social-share). -->
-                    <div class="m1">
-                        <amp-social-share type="twitter" width="30" height="22"></amp-social-share>
-                        <amp-social-share type="facebook" width="30" height="22"
-                            data-attribution="254325784911610"></amp-social-share>
-                        <amp-social-share type="email" width="30" height="22"></amp-social-share>
-
-                        <amp-social-share type="whatsapp" aria-label="Share on WhatsApp" width="30"
-                            height="22"></amp-social-share>
-                    </div>
+    
+    <p>Yo Deejay, keeping you upto Date with UKG
+    <br>
+    © May 2024 </p>
+      
 
 
 
-                    <p style="color: black;     font-family: Roboto, Arial, sans-serif;
-  line-height: 1.25rem;
-  font-size: 0.875rem;">
-                        Quam lacus suspendisse faucibus interdum posuere lorem. Tincidunt eget nullam non nisi est. Nunc
-                        faucibus a pellentesque sit amet porttitor eget dolor. Ut placerat orci nulla pellentesque
-                        dignissim enim sit amet. Dignissim sodales ut eu sem integer vitae. Duis at tellus at urna
-                        condimentum. Aliquet nec ullamcorper sit amet risus nullam. Diam sollicitudin tempor id eu nisl.
-                        Turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Consequat nisl vel pretium
-                        lectus quam id leo in vitae. Tempor commodo ullamcorper a lacus vestibulum sed. Varius sit amet
-                        mattis vulputate enim. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Tempus
-                        quam pellentesque nec nam aliquam sem. Dictumst vestibulum rhoncus est pellentesque elit
-                        ullamcorper dignissim. Neque sodales ut etiam sit amet. Integer eget aliquet nibh praesent
-                        tristique magna sit.
+</div>
 
-                        Id ornare arcu odio ut. Tempor orci dapibus ultrices in. Mauris in aliquam sem fringilla ut
-                        morbi tincidunt. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. Massa
-                        ultricies mi quis hendrerit. Vitae congue eu consequat ac felis. Senectus et netus et malesuada
-                        fames ac turpis egestas sed. Gravida in fermentum et sollicitudin ac. Non consectetur a erat nam
-                        at. Blandit turpis cursus in hac habitasse platea. A condimentum vitae sapien pellentesque
-                        habitant morbi tristique senectus. Urna duis convallis convallis tellus id interdum velit. Orci
-                        dapibus ultrices in iaculis nunc sed. Vitae sapien pellentesque habitant morbi tristique
-                        senectus et netus et. At varius vel pharetra vel turpis nunc eget. Feugiat vivamus at augue
-                        eget. Massa sed elementum tempus egestas sed sed. Mauris sit amet massa vitae tortor condimentum
-                        lacinia quis. Massa eget egestas purus viverra accumsan. Orci porta non pulvinar neque laoreet
-                        suspendisse.
-
-                        Quam vulputate dignissim suspendisse in est. Arcu dictum varius duis at. Nec feugiat in
-                        fermentum posuere. Quis blandit turpis cursus in hac habitasse platea dictumst quisque.
-                        Imperdiet dui accumsan sit amet nulla. Nec dui nunc mattis enim ut. In ante metus dictum at
-                        tempor commodo ullamcorper. Gravida quis blandit turpis cursus in hac. Tempor id eu nisl nunc.
-                        Nunc pulvinar sapien et ligula ullamcorper. Nisi lacus sed viverra tellus in hac. Pulvinar etiam
-                        non quam lacus suspendisse. Tortor aliquam nulla facilisi cras. Sagittis eu volutpat odio
-                        facilisis mauris sit amet massa vitae. In massa tempor nec feugiat. Lobortis feugiat vivamus at
-                        augue eget.
-
-                        Duis ut diam quam nulla porttitor massa id neque. Rhoncus est pellentesque elit ullamcorper
-                        dignissim. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt augue interdum
-                        velit euismod in pellentesque massa placerat. Felis donec et odio pellentesque diam volutpat
-                        commodo. Amet dictum sit amet justo donec enim. Odio pellentesque diam volutpat commodo sed
-                        egestas egestas. Posuere urna nec tincidunt praesent semper. Nunc faucibus a pellentesque sit.
-                        Arcu cursus vitae congue mauris rhoncus aenean. Scelerisque purus semper eget duis at tellus.
-                        Tellus cras adipiscing enim eu turpis egestas pretium. Phasellus vestibulum lorem sed risus
-                        ultricies. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. Interdum
-                        consectetur libero id faucibus. Nec sagittis aliquam malesuada bibendum arcu. In nibh mauris
-                        cursus mattis molestie a iaculis at erat. Felis eget nunc lobortis mattis aliquam faucibus purus
-                        in massa. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Accumsan tortor
-                        posuere ac ut consequat semper.
-
-                        Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Id cursus metus aliquam eleifend
-                        mi in nulla posuere. Dui vivamus arcu felis bibendum ut tristique et egestas quis. Nec tincidunt
-                        praesent semper feugiat nibh sed pulvinar proin gravida. Nec dui nunc mattis enim. Neque viverra
-                        justo nec ultrices dui sapien eget. Imperdiet sed euismod nisi porta. Eget sit amet tellus cras
-                        adipiscing. Mattis vulputate enim nulla aliquet porttitor lacus. Massa placerat duis ultricies
-                        lacus sed. Pellentesque sit amet porttitor eget dolor morbi non arcu risus. Turpis tincidunt id
-                        aliquet risus feugiat in ante. Arcu ac tortor dignissim convallis aenean et tortor at. Risus
-                        viverra adipiscing at in tellus integer feugiat scelerisque varius. Sit amet consectetur
-                        adipiscing elit. Interdum posuere lorem ipsum dolor. Pellentesque pulvinar pellentesque habitant
-                        morbi tristique senectus. Eu scelerisque felis imperdiet proin fermentum leo. Tempus iaculis
-                        urna id volutpat lacus.
-
-
-                    </p>
-
-
-                </div>
-
-
-
-
+            
 
 
 
             </amp-story-page-attachment>
 
 
-
-
         </amp-story-page>
+
 
 
 
         <!---- Page-->
 
 
-        <amp-story-page id="page-1">
-
-            <amp-story-grid-layer class="container" template="fill">
 
 
-            </amp-story-grid-layer>
+ 
+        <!---- Third Page-->
 
-            <amp-story-grid-layer class="container" template="fill">
+        <amp-story-page id="page-3">
+
+            <amp-story-grid-layer class="video container" template="fill">
 
                 <amp-video autoplay loop width="720" height="1280" poster="assets/images/dj.png" layout="fill"
                     cache="google">
-                    <source src="assets/video/biicla-comp.mp4" type="video/mp4">
+                    <source src="assets/video/mph-comp.mp4" type="video/mp4">
 
             </amp-story-grid-layer>
 
-            <amp-story-grid-layer template="vertical" style="align-content:end;">
+            <amp-story-grid-layer template="vertical" class=" gradient;" style=" padding: 16px;">
+                <div class="icon-slide"></div>
+            </amp-story-grid-layer>
 
-                <div class="link-field"
-                    style="place-self: self-end left;  top: 30%; position: absolute; width:40%;   margin-left: 1.5rem;">
-                    <p style="    font-size: 1rem;
-  line-height: 1.3;     margin-bottom: 0.8rem;">Performed here: </p>
-
-                    <div class="button-wrapper" style="width: auto; 
-      background: linear-gradient(-120deg, #4285f4, #34a853, #fbbc05, #ea4335);
-  opacity: 0.7; 
-  position: absolute;
-  box-shadow: 0px 6px 16px rgba(0,0,0,0.16);
-    display: flex;
-    align-items: center;
-    border-radius: 6px;
-    padding: 8px;
-    height: 40px;
-  
- 
-   " animate-in="drop">
-
-                        <a href="https://www.google.com" role="link" data-tooltip-icon="./assets/images/icons/gmap2.png"
-                            data-tooltip-text="See Google Map" style="  color: #fff;   text-decoration: none; display: flex;
-  flex-direction: row;
-
-  ">
-
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
-                                style="margin: 0px 5px; padding-bottom: 2px;" viewBox="0 0 24 24" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M11.3856 23.789L11.3831 23.7871L11.3769 23.7822L11.355 23.765C11.3362 23.7501 11.3091 23.7287 11.2742 23.7008C11.2046 23.6451 11.1039 23.5637 10.9767 23.4587C10.7224 23.2488 10.3615 22.944 9.92939 22.5599C9.06662 21.793 7.91329 20.7041 6.75671 19.419C5.60303 18.1371 4.42693 16.639 3.53467 15.0528C2.64762 13.4758 2 11.7393 2 10C2 7.34784 3.05357 4.8043 4.92893 2.92893C6.8043 1.05357 9.34784 0 12 0C14.6522 0 17.1957 1.05357 19.0711 2.92893C20.9464 4.8043 22 7.34784 22 10C22 11.7393 21.3524 13.4758 20.4653 15.0528C19.5731 16.639 18.397 18.1371 17.2433 19.419C16.0867 20.7041 14.9334 21.793 14.0706 22.5599C13.6385 22.944 13.2776 23.2488 13.0233 23.4587C12.8961 23.5637 12.7954 23.6451 12.7258 23.7008C12.6909 23.7287 12.6638 23.7501 12.645 23.765L12.6231 23.7822L12.6169 23.7871L12.615 23.7885C12.615 23.7885 12.6139 23.7894 12 23L12.6139 23.7894C12.2528 24.0702 11.7467 24.0699 11.3856 23.789ZM12 23L11.3856 23.789C11.3856 23.789 11.3861 23.7894 12 23ZM15 10C15 11.6569 13.6569 13 12 13C10.3431 13 9 11.6569 9 10C9 8.34315 10.3431 7 12 7C13.6569 7 15 8.34315 15 10Z"
-                                    fill="white" />
-                            </svg>
-                            <span style="margin-left: 0.5rem; font-family: Roboto,sans-serif;
- font-size: 14px;
- 
- letter-spacing: 0;
- line-height: 20px;   
-   font-weight: 500;
-   overflow: hidden;
-   text-overflow: ellipsis;
-   white-space: nowrap;
-    margin: 0px 5px;
-"> Club NW4 </span>
+            <amp-story-grid-layer template="vertical" style="align-content:end; ">
 
 
-                        </a>
+                <div class="caption-bottom-right" style="padding-left: 62%;" >
 
-                    </div>
-                </div>
+                    <h3 >
+                        Mph
 
-                <div class="caption-bottom-right" animate-in="fade-in" animate-in-duration="1s" style="
-   position: absolute;
-   bottom: 0;
-   width: 60%;
-   padding: 0% 3% 30% 3%;
-
-   font-family: 'Anton', sans-serif;
-   place-self: self-end right;">
-                    <small>23.10.2021 </small>
-                    <br>
-                    <br>
-                    <h3 style="font-weight: normal;">The track was written by R.... and produced by M...., with O.....
-                        providing the lead vocals</h3>
+                    </h3>
 
 
                 </div>
 
-                <div class="caption-top" style="text-align: center;" animate-in="fly-in-right" animate-in-duration="1s">
-
-                    <h5>Top 5 (2023)</h5>
-
-
-                </div>
 
             </amp-story-grid-layer>
 
 
-            <amp-story-grid-layer template="vertical" class="gradient;" style=" padding: 16px;">
-                <div class="pagination">
-                    <p>2 </p>
-                </div>
-            </amp-story-grid-layer>
 
-            <amp-story-page-attachment layout="nodisplay" class="attachment;" style=" color: black;">
-
-                <div class="infobox">
-                    <h3 class="infobox-title">Sammy Virji</h3>
-
-
-                    <div class="infobox-data">
-
-
-                        <svg viewBox="0 0 12 16" version="1.1" width="12" height="16" fill="#70757a" aria-hidden="true">
-                            <path fill-rule="evenodd"
-                                d="M6 0C2.69 0 0 2.5 0 5.5 0 10.02 6 16 6 16s6-5.98 6-10.5C12 2.5 9.31 0 6 0zm0 14.55C4.14 12.52 1 8.44 1 5.5 1 3.02 3.25 1 6 1c1.34 0 2.61.48 3.56 1.36.92.86 1.44 1.97 1.44 3.14 0 2.94-3.14 7.02-5 9.05zM8 5.5c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z">
-                            </path>
-                        </svg>
-
-                        <small> London</small>
-                    </div>
-
-                </div>
-                <div class="social-menu">
-                    <ul>
-
-
-
-
-
-                        <li><a href="https://www.instagram.com/imsanketbodke/">
-
-
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-youtube">
-                                    <path
-                                        d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
-                                    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
-                                </svg>
-
-
-
-                            </a></li>
-                        <li><a href="https://www.linkedin.com/in/sanket-bodake-995b5b205/" target="blank"><i>
-
-
-
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-instagram">
-                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
-                                    </svg>
-
-
-
-                                </i></a></li>
-
-
-                        <li><a href="https://www.linkedin.com/in/sanket-bodake-995b5b205/" target="blank"><i>
-
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-facebook">
-                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                                    </svg>
-
-
-                                </i></a></li>
-
-                    </ul>
-
-                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <iframe src="https://embed.beatport.com/?id=17470445&type=track" width="100%" height="162"
-                    frameborder="0" scrolling="no" style="max-width:600px;"></iframe>
-
-
-            </amp-story-page-attachment>
-
-        </amp-story-page>
-
-        <!----  Page-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!----4-Slide VIDEO + Attachment-->
-
-
-
-        <amp-story-page id="page-4">
-
-            <amp-story-grid-layer class="container" template="fill">
-
-
-            </amp-story-grid-layer>
-
-            <amp-story-grid-layer class="container" template="fill">
-
-                <amp-video autoplay loop width="720" height="1280" poster="assets/once.jpg" layout="fill"
-                    cache="google">
-                    <source src="assets/DJ3.mp4" type="video/mp4">
-
-            </amp-story-grid-layer>
-
-            <amp-story-grid-layer template="vertical" class="gradient;" style=" padding: 16px;">
-                <div class="pagination">
-                    <p>6</p>
-                </div>
-            </amp-story-grid-layer>
 
             <amp-story-page-attachment layout="nodisplay" class="attachment;" style=" color: black;">
 
 
-                <div class="infobox">
+<div class="attachment_bg-svg"> 
+
+                <div class="attachment_infobox pr1 pl1">
 
 
 
-                    <div class="icon-wrapper" style=" display: flex;
-            flex-direction: row; align-items: center;">
+                    <div class="attachment_infobox_photo-wrapper">
 
 
-                        <amp-img src="assets/slater.png" width="80" height="80" layout="fixed"
-                            style="place-self: center; border-radius:50%;">
+                        <amp-img src="assets/images/mph.webp" width="160" height="160" layout="fixed"
+                           >
                         </amp-img>
+<div> 
+                        <h1 class="infobox-title"> Mph </h1>
+                        <small style="margin-left: 0.5rem;"> DJ, Musician, Producer</small>
 
-                        <h3 class="infobox-title" style="margin-left: 0.5rem;"> DJ3 </h3>
+                    </div>
                     </div>
 
 
@@ -1350,25 +1160,38 @@ padding-left: 1rem;">
                     <div class="infobox-data">
 
 
-                        <small> DJ, Insta</small>
+                        <small> Supported by: Skream, Disclosure, Chris Lorenzo</small>
                     </div>
                 </div>
 
+            </div>
+<div class="attachment_bg-grey"> 
+                <div class="attachment_supporting-text pr1 pl1 "  >
 
-                <div class="social-menu">
+
+                    <p>
+                        MPH has woven his sound into nearly every conceivable corner of UK dancefloors, strapping together monumental releases for some of the scenes most important imprints. From smooth garage creations with DJ EZ’s label Nuvolve, Kiwi Rekords and Southpoint, to raucous bassline bangers for the likes of Night Bass and Crucast; it’s difficult to find a platform that MPH is yet to encounter. Following bundles of support from the likes of
+                        Skream, Disclosure and Chris Lorenzo,
+                       the sky really is the limit for this young producer!
+                       
+
+                    </p>
+
+
+
+
+                </div>
+
+                <div class="social-menu pl1 pr1">
                     <ul>
-
-
-
-
 
                         <li>
-                            <a href="https://www.youtube.com/channel/UCL9hNs37uncHth3eCIIDHiQ" target="_blank"
+                            <a href="https://www.youtube.com/results?search_query=mph+ukg" target="_blank"
                                 rel="noopener noreferrer">
 
 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                                    fill="none" stroke="black" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="feather feather-youtube">
                                     <path
                                         d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
@@ -1381,11 +1204,11 @@ padding-left: 1rem;">
                         </li>
                         <li>
 
-                            <a href="https://www.instagram.com/nightbass" target="blank">
+                            <a href="https://www.instagram.com/mph_uk" target="blank">
 
 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                <svg xmlns="http://www.w3.org/2000/svg" wwidth="28" height="28"  viewBox="0 0 24 24"
+                                    fill="none" stroke="black" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="feather feather-instagram">
                                     <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
                                     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
@@ -1397,37 +1220,427 @@ padding-left: 1rem;">
                                 </i></a>
                         </li>
 
+                            <li>
+                                <a href="https://open.spotify.com/artist/62SCu33InHVq97VaWw3eof?si=B_wv26d3Rp2z80ZtBYfNGw" rel="noopener noreferer" target="_blank">
+                                    <div class="w-5 h-5">
+                                        <svg role="img" viewBox="0 0 24 24" width="28" height="28"  xmlns="http://www.w3.org/2000/svg"><title>Spotify</title><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"></path></svg></div></a>
+                            </li>
+<li>
+                            <a href="https://soundcloud.com/mph-uk" rel="noopener noreferer" target="_blank">
+                                <div class="w-5 h-5">
+                                    <svg role="img" viewBox="0 0 24 24" width="28" height="28"  xmlns="http://www.w3.org/2000/svg"><title>SoundCloud</title><path d="M1.175 12.225c-.051 0-.094.046-.101.1l-.233 2.154.233 2.105c.007.058.05.098.101.098.05 0 .09-.04.099-.098l.255-2.105-.27-2.154c0-.057-.045-.1-.09-.1m-.899.828c-.06 0-.091.037-.104.094L0 14.479l.165 1.308c0 .055.045.094.09.094s.089-.045.104-.104l.21-1.319-.21-1.334c0-.061-.044-.09-.09-.09m1.83-1.229c-.061 0-.12.045-.12.104l-.21 2.563.225 2.458c0 .06.045.12.119.12.061 0 .105-.061.121-.12l.254-2.474-.254-2.548c-.016-.06-.061-.12-.121-.12m.945-.089c-.075 0-.135.06-.15.135l-.193 2.64.21 2.544c.016.077.075.138.149.138.075 0 .135-.061.15-.15l.24-2.532-.24-2.623c0-.075-.06-.135-.135-.135l-.031-.017zm1.155.36c-.005-.09-.075-.149-.159-.149-.09 0-.158.06-.164.149l-.217 2.43.2 2.563c0 .09.075.157.159.157.074 0 .148-.068.148-.158l.227-2.563-.227-2.444.033.015zm.809-1.709c-.101 0-.18.09-.18.181l-.21 3.957.187 2.563c0 .09.08.164.18.164.094 0 .174-.09.18-.18l.209-2.563-.209-3.972c-.008-.104-.088-.18-.18-.18m.959-.914c-.105 0-.195.09-.203.194l-.18 4.872.165 2.548c0 .12.09.209.195.209.104 0 .194-.089.21-.209l.193-2.548-.192-4.856c-.016-.12-.105-.21-.21-.21m.989-.449c-.121 0-.211.089-.225.209l-.165 5.275.165 2.52c.014.119.104.225.225.225.119 0 .225-.105.225-.225l.195-2.52-.196-5.275c0-.12-.105-.225-.225-.225m1.245.045c0-.135-.105-.24-.24-.24-.119 0-.24.105-.24.24l-.149 5.441.149 2.503c.016.135.121.24.256.24s.24-.105.24-.24l.164-2.503-.164-5.456-.016.015zm.749-.134c-.135 0-.255.119-.255.254l-.15 5.322.15 2.473c0 .15.12.255.255.255s.255-.12.255-.27l.15-2.474-.165-5.307c0-.148-.12-.27-.271-.27m1.005.166c-.164 0-.284.135-.284.285l-.103 5.143.135 2.474c0 .149.119.277.284.277.149 0 .271-.12.284-.285l.121-2.443-.135-5.112c-.012-.164-.135-.285-.285-.285m1.184-.945c-.045-.029-.105-.044-.165-.044s-.119.015-.165.044c-.09.054-.149.15-.149.255v.061l-.104 6.048.115 2.449v.008c.008.06.03.135.074.18.058.061.142.104.234.104.08 0 .158-.044.209-.09.058-.06.091-.135.091-.225l.015-.24.117-2.203-.135-6.086c0-.104-.061-.193-.135-.239l-.002-.022zm1.006-.547c-.045-.045-.09-.061-.15-.061-.074 0-.149.016-.209.061-.075.061-.119.15-.119.24v.029l-.137 6.609.076 1.215.061 1.185c0 .164.148.314.328.314.181 0 .33-.15.33-.329l.15-2.414-.15-6.637c0-.12-.074-.221-.165-.277m8.934 3.777c-.405 0-.795.086-1.139.232-.24-2.654-2.46-4.736-5.188-4.736-.659 0-1.305.135-1.889.359-.225.09-.27.18-.285.359v9.368c.016.18.15.33.33.345h8.185C22.681 17.218 24 15.914 24 14.28s-1.319-2.952-2.938-2.952"></path></svg></div></a>
 
-                        <li><a href="https://twitter.com/nightbass" target="blank">
+                                </li>
+                   
+                   <li>
+                    <a href="https://www.facebook.com/mphukofficial/" rel="noopener noreferer" target="_blank"><div class="w-5 h-5">
+                    <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  width="28" height="28" ><title>Facebook</title><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></div></a></li>
+                   
+                </ul>
 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-twitter">
-                                    <path
-                                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
-                                    </path>
-                                </svg>
-                            </a></li>
-
-                    </ul>
+                <small style="color: #333132;
+                font-size: 12px;
+                line-height: 140%;
+                font-family: Roboto, Arial, sans-serif;">Current release:  </small> 
 
                 </div>
+               
+            </div>        
+          
+          
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4dsnR0F7Kp082CmG1wQAzX?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 
-                <iframe src="https://embed.beatport.com/?id=3424036&type=release" width="100%" height="162"
-                    frameborder="0" scrolling="no" style="max-width:600px;"></iframe>
+
+
+<div class="attachment_footer">
+
+    
+    <p>Yo Deejay, keeping you upto Date with UKG
+    <br>
+    © May 2024 </p>
+      
 
 
 
+</div>
+
+            
 
 
 
             </amp-story-page-attachment>
 
 
-
         </amp-story-page>
 
+
+
+
+        <!---- Page-->
+
+
+       <!---- Forth Page-->
+
+       <amp-story-page id="page-4">
+
+        <amp-story-grid-layer class="video container" template="fill">
+
+            <amp-video autoplay loop width="720" height="1280" poster="assets/images/dj.png" layout="fill"
+                cache="google">
+                <source src="assets/video/snosh-comp.mp4" type="video/mp4">
+
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class=" gradient;" style=" padding: 16px;">
+            <div class="icon-slide"></div>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" style="align-content:end; ">
+
+
+            <div class="caption-bottom-right" style="padding-left: 5%; padding-bottom: 55%;">
+
+                <h3 >
+                    Snoosh
+
+                </h3>
+
+
+            </div>
+
+
+        </amp-story-grid-layer>
+
+
+
+
+        <amp-story-page-attachment layout="nodisplay" class="attachment;" style=" color: black;">
+
+
+<div class="attachment_bg-svg"> 
+
+            <div class="attachment_infobox pr1 pl1">
+
+
+
+                <div class="attachment_infobox_photo-wrapper">
+
+
+                    <amp-img src="assets/images/snosh.jpg" width="160" height="160" layout="fixed"
+                       >
+                    </amp-img>
+<div> 
+                    <h1 class="infobox-title"> Snoosh</h1>
+                    <small style="margin-left: 0.5rem;"> DJ, Musician, Producer</small>
+
+                </div>
+                </div>
+
+
+
+
+
+                <div class="infobox-data">
+
+
+                    <small> Supported by: Skream, Disclosure, Chris Lorenzo</small>
+                </div>
+            </div>
+
+        </div>
+<div class="attachment_bg-grey"> 
+            <div class="attachment_supporting-text pr1 pl1 "  >
+
+
+                <p>
+
+                    Presenter at KISS FM and driving force behind 24hr Garage Girls. American born DJ/Producer & Presenter, SHOSH has quickly risen as an emerging talent in the UK Garage scene. Working hard to establish her own sound, in 3 short years as a producer SHOSH has released with DJ EZ’s label Nuvolve, as well as official remixes with EMI, Universal and CR2 Records.
+Named as one of the biggest newcomers in the UK Garage scene by RedBull Music, SHOSH has built an exceptional reputation for her high-energy DJ sets, and has made guest appearances at Glastonbury, Garage Nation, DJ Mag, Boomtown, MixMag, Outlook & Leeds Festival to showcase her music & brand.
+
+                   
+
+                </p>
+
+
+
+
+            </div>
+
+            <div class="social-menu pl1 pr1">
+                <ul>
+
+                    <li>
+                        <a href="https://www.youtube.com/results?search_query=mph+ukg" target="_blank"
+                            rel="noopener noreferrer">
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                                fill="none" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-youtube">
+                                <path
+                                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+                            </svg>
+
+
+
+                        </a>
+                    </li>
+                    <li>
+
+                        <a href="https://www.instagram.com/mph_uk" target="blank">
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" wwidth="28" height="28"  viewBox="0 0 24 24"
+                                fill="none" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-instagram">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg>
+
+
+
+                            </i></a>
+                    </li>
+
+                        <li>
+                            <a href="https://open.spotify.com/artist/62SCu33InHVq97VaWw3eof?si=B_wv26d3Rp2z80ZtBYfNGw" rel="noopener noreferer" target="_blank">
+                                <div class="w-5 h-5">
+                                    <svg role="img" viewBox="0 0 24 24" width="28" height="28"  xmlns="http://www.w3.org/2000/svg"><title>Spotify</title><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"></path></svg></div></a>
+                        </li>
+<li>
+                        <a href="https://soundcloud.com/mph-uk" rel="noopener noreferer" target="_blank">
+                            <div class="w-5 h-5">
+                                <svg role="img" viewBox="0 0 24 24" width="28" height="28"  xmlns="http://www.w3.org/2000/svg"><title>SoundCloud</title><path d="M1.175 12.225c-.051 0-.094.046-.101.1l-.233 2.154.233 2.105c.007.058.05.098.101.098.05 0 .09-.04.099-.098l.255-2.105-.27-2.154c0-.057-.045-.1-.09-.1m-.899.828c-.06 0-.091.037-.104.094L0 14.479l.165 1.308c0 .055.045.094.09.094s.089-.045.104-.104l.21-1.319-.21-1.334c0-.061-.044-.09-.09-.09m1.83-1.229c-.061 0-.12.045-.12.104l-.21 2.563.225 2.458c0 .06.045.12.119.12.061 0 .105-.061.121-.12l.254-2.474-.254-2.548c-.016-.06-.061-.12-.121-.12m.945-.089c-.075 0-.135.06-.15.135l-.193 2.64.21 2.544c.016.077.075.138.149.138.075 0 .135-.061.15-.15l.24-2.532-.24-2.623c0-.075-.06-.135-.135-.135l-.031-.017zm1.155.36c-.005-.09-.075-.149-.159-.149-.09 0-.158.06-.164.149l-.217 2.43.2 2.563c0 .09.075.157.159.157.074 0 .148-.068.148-.158l.227-2.563-.227-2.444.033.015zm.809-1.709c-.101 0-.18.09-.18.181l-.21 3.957.187 2.563c0 .09.08.164.18.164.094 0 .174-.09.18-.18l.209-2.563-.209-3.972c-.008-.104-.088-.18-.18-.18m.959-.914c-.105 0-.195.09-.203.194l-.18 4.872.165 2.548c0 .12.09.209.195.209.104 0 .194-.089.21-.209l.193-2.548-.192-4.856c-.016-.12-.105-.21-.21-.21m.989-.449c-.121 0-.211.089-.225.209l-.165 5.275.165 2.52c.014.119.104.225.225.225.119 0 .225-.105.225-.225l.195-2.52-.196-5.275c0-.12-.105-.225-.225-.225m1.245.045c0-.135-.105-.24-.24-.24-.119 0-.24.105-.24.24l-.149 5.441.149 2.503c.016.135.121.24.256.24s.24-.105.24-.24l.164-2.503-.164-5.456-.016.015zm.749-.134c-.135 0-.255.119-.255.254l-.15 5.322.15 2.473c0 .15.12.255.255.255s.255-.12.255-.27l.15-2.474-.165-5.307c0-.148-.12-.27-.271-.27m1.005.166c-.164 0-.284.135-.284.285l-.103 5.143.135 2.474c0 .149.119.277.284.277.149 0 .271-.12.284-.285l.121-2.443-.135-5.112c-.012-.164-.135-.285-.285-.285m1.184-.945c-.045-.029-.105-.044-.165-.044s-.119.015-.165.044c-.09.054-.149.15-.149.255v.061l-.104 6.048.115 2.449v.008c.008.06.03.135.074.18.058.061.142.104.234.104.08 0 .158-.044.209-.09.058-.06.091-.135.091-.225l.015-.24.117-2.203-.135-6.086c0-.104-.061-.193-.135-.239l-.002-.022zm1.006-.547c-.045-.045-.09-.061-.15-.061-.074 0-.149.016-.209.061-.075.061-.119.15-.119.24v.029l-.137 6.609.076 1.215.061 1.185c0 .164.148.314.328.314.181 0 .33-.15.33-.329l.15-2.414-.15-6.637c0-.12-.074-.221-.165-.277m8.934 3.777c-.405 0-.795.086-1.139.232-.24-2.654-2.46-4.736-5.188-4.736-.659 0-1.305.135-1.889.359-.225.09-.27.18-.285.359v9.368c.016.18.15.33.33.345h8.185C22.681 17.218 24 15.914 24 14.28s-1.319-2.952-2.938-2.952"></path></svg></div></a>
+
+                            </li>
+               
+               <li>
+                <a href="https://www.facebook.com/mphukofficial/" rel="noopener noreferer" target="_blank"><div class="w-5 h-5">
+                <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  width="28" height="28" ><title>Facebook</title><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></div></a></li>
+               
+            </ul>
+
+            <small style="color: #333132;
+            font-size: 12px;
+            line-height: 140%;
+            font-family: Roboto, Arial, sans-serif;">Current release:  </small> 
+
+            </div>
+           
+        </div>        
+      
+      
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4dsnR0F7Kp082CmG1wQAzX?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+
+
+<div class="attachment_footer">
+
+
+<p>Yo Deejay, keeping you upto Date with UKG
+<br>
+© May 2024 </p>
+  
+
+
+
+</div>
+
+        
+
+
+
+        </amp-story-page-attachment>
+
+
+    </amp-story-page>
+
+       <!---- Page-->
+
+          <!---- Fith Page-->
+
+          <amp-story-page id="page-4">
+
+            <amp-story-grid-layer class="video container" template="fill">
+    
+                <amp-video autoplay loop width="720" height="1280" poster="assets/images/dj.png" layout="fill"
+                    cache="google">
+                    <source src="assets/DJ3.mp4" type="video/mp4">
+    
+            </amp-story-grid-layer>
+    
+            <amp-story-grid-layer template="vertical" class=" gradient;" style=" padding: 16px;">
+                <div class="icon-slide"></div>
+            </amp-story-grid-layer>
+    
+            <amp-story-grid-layer template="vertical" style="align-content:end; ">
+    
+    
+                <div class="caption-bottom-right" style="padding-left: 5%; padding-bottom: 55%;">
+    
+                    <h3 >
+                        Snoosh
+    
+                    </h3>
+    
+    
+                </div>
+    
+    
+            </amp-story-grid-layer>
+    
+    
+    
+    
+            <amp-story-page-attachment layout="nodisplay" class="attachment;" style=" color: black;">
+    
+    
+    <div class="attachment_bg-svg"> 
+    
+                <div class="attachment_infobox pr1 pl1">
+    
+    
+    
+                    <div class="attachment_infobox_photo-wrapper">
+    
+    
+                        <amp-img src="assets/images/snosh.jpg" width="160" height="160" layout="fixed"
+                           >
+                        </amp-img>
+    <div> 
+                        <h1 class="infobox-title"> Snoosh</h1>
+                        <small style="margin-left: 0.5rem;"> DJ, Musician, Producer</small>
+    
+                    </div>
+                    </div>
+    
+    
+    
+    
+    
+                    <div class="infobox-data">
+    
+    
+                        <small> Supported by: Skream, Disclosure, Chris Lorenzo</small>
+                    </div>
+                </div>
+    
+            </div>
+    <div class="attachment_bg-grey"> 
+                <div class="attachment_supporting-text pr1 pl1 "  >
+    
+    
+                    <p>
+    
+                        Presenter at KISS FM and driving force behind 24hr Garage Girls. American born DJ/Producer & Presenter, SHOSH has quickly risen as an emerging talent in the UK Garage scene. Working hard to establish her own sound, in 3 short years as a producer SHOSH has released with DJ EZ’s label Nuvolve, as well as official remixes with EMI, Universal and CR2 Records.
+    Named as one of the biggest newcomers in the UK Garage scene by RedBull Music, SHOSH has built an exceptional reputation for her high-energy DJ sets, and has made guest appearances at Glastonbury, Garage Nation, DJ Mag, Boomtown, MixMag, Outlook & Leeds Festival to showcase her music & brand.
+    
+                       
+    
+                    </p>
+    
+    
+    
+    
+                </div>
+    
+                <div class="social-menu pl1 pr1">
+                    <ul>
+    
+                        <li>
+                            <a href="https://www.youtube.com/results?search_query=mph+ukg" target="_blank"
+                                rel="noopener noreferrer">
+    
+    
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                                    fill="none" stroke="black" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-youtube">
+                                    <path
+                                        d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+                                    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+                                </svg>
+    
+    
+    
+                            </a>
+                        </li>
+                        <li>
+    
+                            <a href="https://www.instagram.com/mph_uk" target="blank">
+    
+    
+                                <svg xmlns="http://www.w3.org/2000/svg" wwidth="28" height="28"  viewBox="0 0 24 24"
+                                    fill="none" stroke="black" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-instagram">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                                </svg>
+    
+    
+    
+                                </i></a>
+                        </li>
+    
+                            <li>
+                                <a href="https://open.spotify.com/artist/62SCu33InHVq97VaWw3eof?si=B_wv26d3Rp2z80ZtBYfNGw" rel="noopener noreferer" target="_blank">
+                                    <div class="w-5 h-5">
+                                        <svg role="img" viewBox="0 0 24 24" width="28" height="28"  xmlns="http://www.w3.org/2000/svg"><title>Spotify</title><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"></path></svg></div></a>
+                            </li>
+    <li>
+                            <a href="https://soundcloud.com/mph-uk" rel="noopener noreferer" target="_blank">
+                                <div class="w-5 h-5">
+                                    <svg role="img" viewBox="0 0 24 24" width="28" height="28"  xmlns="http://www.w3.org/2000/svg"><title>SoundCloud</title><path d="M1.175 12.225c-.051 0-.094.046-.101.1l-.233 2.154.233 2.105c.007.058.05.098.101.098.05 0 .09-.04.099-.098l.255-2.105-.27-2.154c0-.057-.045-.1-.09-.1m-.899.828c-.06 0-.091.037-.104.094L0 14.479l.165 1.308c0 .055.045.094.09.094s.089-.045.104-.104l.21-1.319-.21-1.334c0-.061-.044-.09-.09-.09m1.83-1.229c-.061 0-.12.045-.12.104l-.21 2.563.225 2.458c0 .06.045.12.119.12.061 0 .105-.061.121-.12l.254-2.474-.254-2.548c-.016-.06-.061-.12-.121-.12m.945-.089c-.075 0-.135.06-.15.135l-.193 2.64.21 2.544c.016.077.075.138.149.138.075 0 .135-.061.15-.15l.24-2.532-.24-2.623c0-.075-.06-.135-.135-.135l-.031-.017zm1.155.36c-.005-.09-.075-.149-.159-.149-.09 0-.158.06-.164.149l-.217 2.43.2 2.563c0 .09.075.157.159.157.074 0 .148-.068.148-.158l.227-2.563-.227-2.444.033.015zm.809-1.709c-.101 0-.18.09-.18.181l-.21 3.957.187 2.563c0 .09.08.164.18.164.094 0 .174-.09.18-.18l.209-2.563-.209-3.972c-.008-.104-.088-.18-.18-.18m.959-.914c-.105 0-.195.09-.203.194l-.18 4.872.165 2.548c0 .12.09.209.195.209.104 0 .194-.089.21-.209l.193-2.548-.192-4.856c-.016-.12-.105-.21-.21-.21m.989-.449c-.121 0-.211.089-.225.209l-.165 5.275.165 2.52c.014.119.104.225.225.225.119 0 .225-.105.225-.225l.195-2.52-.196-5.275c0-.12-.105-.225-.225-.225m1.245.045c0-.135-.105-.24-.24-.24-.119 0-.24.105-.24.24l-.149 5.441.149 2.503c.016.135.121.24.256.24s.24-.105.24-.24l.164-2.503-.164-5.456-.016.015zm.749-.134c-.135 0-.255.119-.255.254l-.15 5.322.15 2.473c0 .15.12.255.255.255s.255-.12.255-.27l.15-2.474-.165-5.307c0-.148-.12-.27-.271-.27m1.005.166c-.164 0-.284.135-.284.285l-.103 5.143.135 2.474c0 .149.119.277.284.277.149 0 .271-.12.284-.285l.121-2.443-.135-5.112c-.012-.164-.135-.285-.285-.285m1.184-.945c-.045-.029-.105-.044-.165-.044s-.119.015-.165.044c-.09.054-.149.15-.149.255v.061l-.104 6.048.115 2.449v.008c.008.06.03.135.074.18.058.061.142.104.234.104.08 0 .158-.044.209-.09.058-.06.091-.135.091-.225l.015-.24.117-2.203-.135-6.086c0-.104-.061-.193-.135-.239l-.002-.022zm1.006-.547c-.045-.045-.09-.061-.15-.061-.074 0-.149.016-.209.061-.075.061-.119.15-.119.24v.029l-.137 6.609.076 1.215.061 1.185c0 .164.148.314.328.314.181 0 .33-.15.33-.329l.15-2.414-.15-6.637c0-.12-.074-.221-.165-.277m8.934 3.777c-.405 0-.795.086-1.139.232-.24-2.654-2.46-4.736-5.188-4.736-.659 0-1.305.135-1.889.359-.225.09-.27.18-.285.359v9.368c.016.18.15.33.33.345h8.185C22.681 17.218 24 15.914 24 14.28s-1.319-2.952-2.938-2.952"></path></svg></div></a>
+    
+                                </li>
+                   
+                   <li>
+                    <a href="https://www.facebook.com/mphukofficial/" rel="noopener noreferer" target="_blank"><div class="w-5 h-5">
+                    <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  width="28" height="28" ><title>Facebook</title><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></div></a></li>
+                   
+                </ul>
+    
+                <small style="color: #333132;
+                font-size: 12px;
+                line-height: 140%;
+                font-family: Roboto, Arial, sans-serif;">Current release:  </small> 
+    
+                </div>
+               
+            </div>        
+          
+          
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4dsnR0F7Kp082CmG1wQAzX?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    
+    
+    
+    
+    <div class="attachment_footer">
+    
+    
+    <p>Yo Deejay, keeping you upto Date with UKG
+    <br>
+    © May 2024 </p>
+      
+    
+    
+    
+    </div>
+    
+            
+    
+    
+    
+            </amp-story-page-attachment>
+    
+    
+        </amp-story-page>
+    
+           <!---- Page-->
 
 
         <!----5-Insta + Attachment-->
