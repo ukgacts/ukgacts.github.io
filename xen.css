@@ -11,8 +11,36 @@
 
 }
 
+.logo {
+    background-image: url('assets/logo.jpg');
+background-repeat: no-repeat;
+background-size: 4.25rem 4.25rem;
+height: 4.25rem;
+object-fit: contain;
+width: 4.25rem;
+border-radius: 12%;
+box-shadow: 0 0 0 2px #dd9d16;
 
-.icon-slide {
+}
+
+
+.cover-title { 
+                text-align: right;
+                        
+                width: 100%;
+                padding: 18% 4%;
+        
+          position: absolute;
+        }
+
+.cover-title h1 {text-align: right; line-height: 0.75; margin:0;  color: white; font-size: 6.5rem;  }
+
+.cover-title h3 { 
+
+line-height: 1; margin-top: 0.75rem;    font-size: 3rem;
+}
+
+.logo {
     background-image: url('assets/logo.jpg');
     background-repeat: no-repeat;
     background-size: 4.25rem 4.25rem;
